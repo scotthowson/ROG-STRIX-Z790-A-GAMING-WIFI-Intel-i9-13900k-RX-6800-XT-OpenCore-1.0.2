@@ -111,6 +111,7 @@ A footnote can also have multiple lines[^2].
 
 
 <h6>Footnotes:</h6>
+
 [^1]: An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 [^2]: Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.
 [^3]: A Lilu plugin providing patches to select GPUs on macOS. Requires Lilu 1.5.6 or newer.
