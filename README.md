@@ -123,7 +123,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
     - [ ] Resolution
     - [ ] Refresh rates
     - [ ] Multimonitor displays
-3. Display
+3. Graphics Acceleration
     - [ ] dGPU dedicated GPU
         - In Terminal: gfxutil -f GFX0 or check in IORegistryExplorer
     - [ ] iGPU internal GPU
@@ -136,16 +136,59 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
         - System Information -> Graphics/Displays -> Metal: Supported
         - GLView
         - Geekbench -> Compute -> Metal
-4. Display
-    - [ ] Display via HDMI
-    - [ ] Display via HDMI
-    - [ ] Display via DisplayPort
-    - [ ] Display via DVI
-    - [ ] Resolution
-    - [ ] Refresh rates
-    - [ ] Multimonitor displays
-
-
+4. Audio
+    - [ ] Audio out (Audio MIDI Setup)
+    - [ ] Audio in
+    - [ ] Frontpanel audio connectors
+    - [ ] Audio over HDMI
+    - [ ] Audio quality
+5. Sleep & Power
+    - [ ] Manual Sleep (Apple menu -> Sleep)
+    - [ ] Auto Sleep (System preferences -> Energy Saver)
+    - [ ] Wake by keyboard
+    - [ ] Wake by mouse/trackpad
+    - [ ] Sleep by Press and hold power button for 1.5 seconds
+    - [ ] Shutdown (from Apple menu)
+    - [ ] Restart (from Apple menu)
+6. CPU
+    [ ] CPU Power Management Optimizing Power Management
+        Check with IORegistryExplorer
+    [ ] Temperatures and stability with 100% CPU
+        Use Prime95 Torture Test
+7. Disk
+    - Test with Blackmagic Disk Speedtest
+    - [ ] NVMe SSD
+    - [ ] SATA SSD
+    - [ ] TRIM support (System Information -> SATA -> SSD drive)
+8. Keyboard
+    - [ ] Option/Command correctly mapped in macOS
+        - For PC Keyboards swap in: System preferences -> Keyboard -> Modifier Keys
+    - [ ] Fn keys working
+9. USB
+    - Use USBMap
+    - Test external drives with Blackmagic Disk Speedtest
+    - [ ] USB 2 ports
+    - [ ] USB 2 on USB 3 ports
+    - [ ] USB 3 and 3.1 ports (check transfer speed during copy)
+    - [ ] USB C ports
+    - [ ] SD Card Reader
+    - [ ] Camera (Photo Booth, Facetime, Zoom)
+    - [ ] Fingerprint reader
+10. Ethernet
+    - [ ] Gigabit LAN (System preferences -> Network -> Ethernet -> Advanced -> Hardware -> Speed should be 1000baseT)
+    - [ ] 2.5GBase-T (especially on Comet Lake and above boards)
+    - [ ] 10GBase-T (Aquantia with updated firmware)
+11. Wifi & Bluetooth
+    - [ ] Wifi transmission speed (Option Click -> Wifi menu bar icon -> check Tx Rate)
+    - [ ] Bluetooth devices (trackpad, mouse, keyboard, headset)
+    - [ ] AirDrop (test with iDevices)
+    - [ ] AirPlay to Mac (macOS Monterey or later, test with iOS 14 or later devices)
+        - tap the AirPlay icon on your Apple device to share videos to your Hackintosh
+    - [ ] Handoff System requirements for Continuity and Use Continuity which requires macOS Catalina & iOS 13+
+    - [ ] Sidecar requires macOS Catalina or later and a compatible iPad using iPadOS 13 or later.
+12. OS Features
+    - [ ] iMessage, FaceTime, App Store, iTunes Store
+    - [ ] DRM support (iTunes Movies, Apple TV+, Amazon Prime and Netflix, and others)
 
 
 <h6>Footnotes:</h6>
