@@ -7,7 +7,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 <table>
   <tbody>
     <tr>
-      <td align="left"><br><h2>Hardware</h2><br>
+      <td align="left"><br>**Hardware**<br>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -89,3 +89,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 | Wi-fi | Intel® Wi-Fi 6E AX211 | ✅ |
 
 ## BIOS：
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
