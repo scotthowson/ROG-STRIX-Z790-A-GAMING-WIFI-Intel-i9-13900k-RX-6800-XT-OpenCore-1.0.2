@@ -4,6 +4,8 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 ## Specifications
 
+> [!NOTE]
+> These are my custom specifications and it may not work for you.
 <table>
   <tbody>
     <tr>
