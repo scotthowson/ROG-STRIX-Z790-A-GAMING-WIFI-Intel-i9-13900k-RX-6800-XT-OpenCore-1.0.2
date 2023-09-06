@@ -55,7 +55,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
     </tr>
     <tr>
         <td align="left">GPU</td>
-        <td align="center">ASRock Phantom Gaming Radeon RX 6800 XT ( 16 GB )</td>
+        <td align="center">ASRock AMD Radeon RX 6800 XT ( 16 GB )</td>
         <td align="center">	✅ </td>
     </tr>
     <tr>
@@ -76,20 +76,32 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
   </tbody>
 </table>
 
+## Kexts：
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
 
-| Hardware | Model | Status |
-| --- | --- | --- |
-| Motherboard | ASUS ROG STRIX Z790-A GAMING WIFI | ❓ |
-| CPU | 13th Gen Intel® Core i9-13900k | ✅ |
-| RAM | 64 GB ( Corsair DDR4 3600MHz 16GB x 4 ) | ✅ |
-| Storage | Intel SSDPEKNW512GB NVME | ✅ |
-| GPU |  ASRock Phantom Gaming Radeon RX 6800 XT ( 16 GB ) | ✅ |
-| USB | Generic USB Audio(Generic USB Audio) | ✅ |
-| Ethernet | Intel® Ethernet Contoller I226-V | ✅ |
-| Wi-fi | Intel® Wi-Fi 6E AX211 | ✅ |
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
 
 ## BIOS：
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
