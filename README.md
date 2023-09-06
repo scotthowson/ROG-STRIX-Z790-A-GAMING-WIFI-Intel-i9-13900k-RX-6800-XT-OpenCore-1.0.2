@@ -91,7 +91,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
    - https://github.com/acidanthera/VirtualSMC/releases [^2]
 3. WhateverGreen
    - https://github.com/acidanthera/WhateverGreen/releases [^3]
-4. VirtualSMC Kexts
+4. Airportitlwm
    - https://github.com/OpenIntelWireless/itlwm/releases [^4]
 
 - [x] #739
@@ -101,11 +101,11 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 ## BIOS：
 
-- [x] Correct OS choices shown in OpenCore Menu/GUI
-- [ ] Keyboard shortcuts working (see details below)
-- [ ] Add delight to the experience when all tasks are complete :tada:
+
 
 ## Hackintosh Checklist - Whats Working?：
+> [!NOTE]
+> If anything does't work for you, report the issue. 
 1. OpenCore Booting
     - [x] Correct OS choices shown in OpenCore Menu/GUI
     - [ ] Keyboard shortcuts working (see details below)
