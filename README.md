@@ -83,9 +83,9 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 > Crucial information necessary for users to succeed.
 
 1. Lili Kext
-   - https://github.com/acidanthera/Lilu/releases[^1]
+   - https://github.com/acidanthera/Lilu/releases [^1]
 2. VirtualSMC Kexts
-   - https://github.com/acidanthera/VirtualSMC/releases[^2]
+   - https://github.com/acidanthera/VirtualSMC/releases [^2]
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
