@@ -7,7 +7,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 <table>
   <tbody>
     <tr>
-      <td align="left">Hardware<br>
+      <td align="left"><br>Hardware<br>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
