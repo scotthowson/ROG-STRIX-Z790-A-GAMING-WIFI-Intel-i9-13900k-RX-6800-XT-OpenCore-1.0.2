@@ -38,13 +38,11 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
         <span>&nbsp;&nbsp;</span>
       </td>
     </tr>
-    <tr>
-    <td align="center">MOBO</td>
-    <td align="center">CPU</td>
+    <tr align="center">MOBO</tr>
+    <tr align="center">CPU</tr>
     <td align="center">GPU</td>
     <td align="center">RAM</td>
     <td align="center">Storage</td>
-    </tr>
   </tbody>
 </table>
 
