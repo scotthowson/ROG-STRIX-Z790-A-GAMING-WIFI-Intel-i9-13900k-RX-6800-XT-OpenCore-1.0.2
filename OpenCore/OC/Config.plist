@@ -1213,7 +1213,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 debug=0x100 -ctrsmt agdpmod=pikera -wegnoigpu</string>
+                    <string>keepsyms=1 debug=0x100 -ctrsmt agdpmod=pikera -wegnoigpu alcid=11</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
