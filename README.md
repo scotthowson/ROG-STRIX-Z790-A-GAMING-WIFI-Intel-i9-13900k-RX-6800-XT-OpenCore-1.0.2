@@ -116,15 +116,27 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
     - [ ] FileVault
     - [ ] Multibooting
 2. Display
-    - [x] Correct OS choices shown in OpenCore Menu/GUI
-    - [ ] Keyboard shortcuts working (see details below)
-        - CMD+V — verbose mode.
-    - [ ] NVRAM working Verifying if you have working NVRAM
-        - Apple -> System Preferences -> Startup Disk (uses NVRAM).
-    - [ ] Security (especially SIP) use Menu Bar SIP Detector
-    - [ ] FileVault
-    - [ ] Multibooting
-2. Display
+    - [ ] Display via HDMI
+    - [ ] Display via HDMI
+    - [ ] Display via DisplayPort
+    - [ ] Display via DVI
+    - [ ] Resolution
+    - [ ] Refresh rates
+    - [ ] Multimonitor displays
+3. Display
+    - [ ] dGPU dedicated GPU
+        - In Terminal: gfxutil -f GFX0 or check in IORegistryExplorer
+    - [ ] iGPU internal GPU
+        - In Terminal: gfxutil -f IGPU or check in IORegistryExplorer
+    - [ ] QE/CI (full acceleration requires both Quartz Extreme and Core Image)
+        - Check for transparent menu bar and fast smooth UI.
+    - [ ] VDA (Video Decode Acceleration framework)
+        - Hackintool -> System -> System -> VDA Decoder (should show 'fully supported')
+    - [ ] Metal
+        - System Information -> Graphics/Displays -> Metal: Supported
+        - GLView
+        - Geekbench -> Compute -> Metal
+4. Display
     - [ ] Display via HDMI
     - [ ] Display via HDMI
     - [ ] Display via DisplayPort
