@@ -77,6 +77,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
     </tr>
   </tbody>
 </table>
+
 > [!NOTE]
 > These are MY custom specifications and it may not work for you & require tweaking.
 
