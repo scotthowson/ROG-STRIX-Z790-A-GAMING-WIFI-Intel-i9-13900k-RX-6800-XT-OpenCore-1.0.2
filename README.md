@@ -101,15 +101,39 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 ## BIOS：
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [x] Correct OS choices shown in OpenCore Menu/GUI
+- [ ] Keyboard shortcuts working (see details below)
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
 ## Hackintosh Checklist - Whats Working?：
 1. OpenCore Booting
-    - [x] #739
-    - [ ] https://github.com/octo-org/octo-repo/issues/740
-    - [ ] Add delight to the experience when all tasks are complete :tada:
+    - [x] Correct OS choices shown in OpenCore Menu/GUI
+    - [ ] Keyboard shortcuts working (see details below)
+        - CMD+V — verbose mode.
+    - [ ] NVRAM working Verifying if you have working NVRAM
+        - Apple -> System Preferences -> Startup Disk (uses NVRAM).
+    - [ ] Security (especially SIP) use Menu Bar SIP Detector
+    - [ ] FileVault
+    - [ ] Multibooting
+2. Display
+    - [x] Correct OS choices shown in OpenCore Menu/GUI
+    - [ ] Keyboard shortcuts working (see details below)
+        - CMD+V — verbose mode.
+    - [ ] NVRAM working Verifying if you have working NVRAM
+        - Apple -> System Preferences -> Startup Disk (uses NVRAM).
+    - [ ] Security (especially SIP) use Menu Bar SIP Detector
+    - [ ] FileVault
+    - [ ] Multibooting
+2. Display
+    - [ ] Display via HDMI
+    - [ ] Display via HDMI
+    - [ ] Display via DisplayPort
+    - [ ] Display via DVI
+    - [ ] Resolution
+    - [ ] Refresh rates
+    - [ ] Multimonitor displays
+
+
 
 
 <h6>Footnotes:</h6>
