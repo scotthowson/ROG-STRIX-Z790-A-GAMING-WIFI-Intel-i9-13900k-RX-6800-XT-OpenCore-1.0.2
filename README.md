@@ -38,16 +38,11 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
         <span>&nbsp;&nbsp;</span>
       </td>
     </tr>
-    <td align="center">ASUS ROG STRIX Z790-A GAMING WIFI<br>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;</span>
-      </td>
+    <td align="center">MOBO</td>
+    <td align="center">CPU</td>
+    <td align="center">GPU</td>
+    <td align="center">RAM</td>
+    <td align="center">Storage</td>
   </tbody>
 </table>
 
