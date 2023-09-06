@@ -6,8 +6,6 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 > [!WARNING]
 > I do not take any responsibility and not liable for any damage caused by use of information through this repository.
 
-> [!NOTE]
-> These are my custom specifications and it may not work for you & require tweaking.
 <table>
   <tbody>
     <tr>
@@ -79,6 +77,8 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
     </tr>
   </tbody>
 </table>
+> [!NOTE]
+> These are MY custom specifications and it may not work for you & require tweaking.
 
 ## Kexts：
 > [!IMPORTANT]
