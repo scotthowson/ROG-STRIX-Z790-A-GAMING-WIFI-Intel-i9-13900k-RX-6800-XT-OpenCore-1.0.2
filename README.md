@@ -105,7 +105,8 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 ## Hackintosh Checklist - Whats Working?：
 > [!NOTE]
-> If anything does't work for you, report the issue. 
+> If anything does't work for you, report the issue. <br>
+https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/issues
 1. OpenCore Booting
     - [x] Correct OS choices shown in OpenCore Menu/GUI
     - [ ] Keyboard shortcuts working (see details below)
