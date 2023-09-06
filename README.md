@@ -3,9 +3,10 @@
 Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 ## Specifications
-
+> [!WARNING]
+> I do not take any responsibility and not liable for any damage caused by use of information through this repository.
 > [!NOTE]
-> These are my custom specifications and it may not work for you.
+> These are my custom specifications and it may not work for you & require tweaking.
 <table>
   <tbody>
     <tr>
@@ -86,6 +87,10 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
    - https://github.com/acidanthera/Lilu/releases [^1]
 2. VirtualSMC Kexts
    - https://github.com/acidanthera/VirtualSMC/releases [^2]
+3. WhateverGreen
+   - https://github.com/acidanthera/WhateverGreen/releases [^3]
+4. VirtualSMC Kexts
+   - https://github.com/OpenIntelWireless/itlwm/releases [^2]
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
@@ -102,5 +107,9 @@ Here is a simple footnote[^1].
 
 A footnote can also have multiple lines[^2].
 
+
+<h6>Footnotes:</h6>
 [^1]: An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 [^2]: Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.
+[^3]: A Lilu plugin providing patches to select GPUs on macOS. Requires Lilu 1.5.6 or newer.
+[^4]: An Intel Wi-Fi Adapter Kernel Extension for macOS, based on the OpenBSD Project.
