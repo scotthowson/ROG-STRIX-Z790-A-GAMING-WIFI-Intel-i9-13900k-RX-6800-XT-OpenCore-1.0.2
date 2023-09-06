@@ -71,7 +71,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
         <td align="center">	✅ </td>
     </tr>
     <tr>
-        <td align="left">Ethernet</td>
+        <td align="left">Wi-fi</td>
         <td align="center">Intel® Wi-Fi 6E AX211</td>
         <td align="center">	✅ </td>
     </tr>
@@ -83,7 +83,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 ## Kexts：
 > [!IMPORTANT]
-> Crucial information necessary for users to succeed.
+> Crucial drivers that are necessary for you to succeed.
 
 1. Lili Kext
    - https://github.com/acidanthera/Lilu/releases [^1]
@@ -92,7 +92,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 3. WhateverGreen
    - https://github.com/acidanthera/WhateverGreen/releases [^3]
 4. VirtualSMC Kexts
-   - https://github.com/OpenIntelWireless/itlwm/releases [^2]
+   - https://github.com/OpenIntelWireless/itlwm/releases [^4]
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
@@ -105,9 +105,11 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
-Here is a simple footnote[^1].
-
-A footnote can also have multiple lines[^2].
+## Hackintosh Checklist - Whats Working?：
+1. OpenCore Booting
+    - [x] #739
+    - [ ] https://github.com/octo-org/octo-repo/issues/740
+    - [ ] Add delight to the experience when all tasks are complete :tada:
 
 
 <h6>Footnotes:</h6>
