@@ -39,11 +39,14 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
       </th>
     </tr>
     <tr>
-        <tdh align="center">MOBO</td>
+        <td align="center">MOBO</td>
+        <td align="center">ASUS ROG STRIX Z790-A GAMING WIFI</td>
+        <td align="center">	❓ </td>
+    </tr>
+    <tr>
         <td align="center">CPU</td>
-        <td align="center">GPU</td>
-        <td align="center">RAM</td>
-        <td align="center">Storage</td>
+        <td align="center">13th Gen Intel® Core i9-13900k</td>
+        <td align="center">	✅ </td>
     </tr>
   </tbody>
 </table>
