@@ -7,13 +7,13 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 | Hardware | Model | Status |
 | --- | --- | --- |
-| Motherboard | ASUS ROG STRIX Z790-A GAMING WIFI D4（LPC Controller/eSPI Controller - 7A04） | ❓ |
-| CPU | 13th Gen Intel® Core i9-13900k | ✅ |
-| RAM | 64 GB ( Corsair DDR4 3600MHz 16GB x 4 ) | ✅ |
-| Storage | Intel SSDPEKNW512GB NVME | ✅ |
-| GPU |  ASRock Phantom Gaming Radeon RX 6800 XT ( 16 GB ) | ✅ |
-| USB | Generic USB Audio(Generic USB Audio) | ✅|
-| Ethernet | Intel® Ethernet Contoller I226-V | ✅ |
-| Wi-fi | Intel® Wi-Fi 6E AX211 |  ✅ |
+| Motherboard | ASUS ROG STRIX Z790-A GAMING WIFI | ❓ |
+| CPU | 13th Gen Intel® Core i9-13900k |    ✅ |
+| RAM | 64 GB ( Corsair DDR4 3600MHz 16GB x 4 ) |    ✅ |
+| Storage | Intel SSDPEKNW512GB NVME |    ✅ |
+| GPU |  ASRock Phantom Gaming Radeon RX 6800 XT ( 16 GB ) |    ✅ |
+| USB | Generic USB Audio(Generic USB Audio) |       ✅ |
+| Ethernet | Intel® Ethernet Contoller I226-V |       ✅ |
+| Wi-fi | Intel® Wi-Fi 6E AX211 |       ✅ |
 
 ## BIOS：
