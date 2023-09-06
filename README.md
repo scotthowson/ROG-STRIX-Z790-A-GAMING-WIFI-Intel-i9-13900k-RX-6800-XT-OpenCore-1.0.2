@@ -143,13 +143,13 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
     - [x] Audio over HDMI
     - [x] Audio quality
 5. Sleep & Power
-    - [ ] Manual Sleep (Apple menu -> Sleep)
-    - [ ] Auto Sleep (System preferences -> Energy Saver)
-    - [ ] Wake by keyboard
-    - [ ] Wake by mouse/trackpad
-    - [ ] Sleep by Press and hold power button for 1.5 seconds
-    - [ ] Shutdown (from Apple menu)
-    - [ ] Restart (from Apple menu)
+    - [x] Manual Sleep (Apple menu -> Sleep)
+    - [x] Auto Sleep (System preferences -> Energy Saver)
+    - [x] Wake by keyboard
+    - [x] Wake by mouse/trackpad
+    - [x] Sleep by Press and hold power button for 1.5 seconds
+    - [x] Shutdown (from Apple menu)
+    - [x] Restart (from Apple menu)
 6. CPU
     - [x] CPU Power Management Optimizing Power Management
         - Check with IORegistryExplorer
