@@ -125,7 +125,7 @@ Highest GPU Score: <b>223247</b>
 
 ## BIOS：
 
-
+Adding Info here soon :) Thanks!
 
 ## Hackintosh Checklist - Whats Working?：
 > [!NOTE]
@@ -151,8 +151,6 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
 3. Graphics Acceleration
     - [x] dGPU dedicated GPU
         - In Terminal: gfxutil -f GFX0 or check in IORegistryExplorer
-    - [ ] iGPU internal GPU
-        - In Terminal: gfxutil -f IGPU or check in IORegistryExplorer
     - [x] QE/CI (full acceleration requires both Quartz Extreme and Core Image)
         - Check for transparent menu bar and fast smooth UI.
     - [x] VDA (Video Decode Acceleration framework)
@@ -212,6 +210,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
     - [x] Bluetooth devices (trackpad, mouse, keyboard, headset)
 > [!IMPORTANT]
 > Having issues with AirDrop. Working on a solution. :tada:
+
     - [ ] AirDrop (test with iDevices)
     - [ ] AirPlay to Mac (macOS Monterey or later, test with iOS 14 or later devices)
         - tap the AirPlay icon on your Apple device to share videos to your Hackintosh
