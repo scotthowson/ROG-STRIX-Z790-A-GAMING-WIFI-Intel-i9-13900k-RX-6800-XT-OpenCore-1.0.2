@@ -301,7 +301,7 @@ I would like to express our gratitude to the Hackintosh community, contributors,
 Thank you for being a part of this journey!
 
 <details>
-- <summary><strong>Footnotes</strong></summary>
+- Footnotes
 
  - [^1]: An open-source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 [^2]: Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.
