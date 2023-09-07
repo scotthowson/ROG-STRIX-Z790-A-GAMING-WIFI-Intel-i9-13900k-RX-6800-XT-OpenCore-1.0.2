@@ -32,76 +32,52 @@ Highest GPU Score: <b>223247</b>
 ## Specifications
 
 <table>
+  <thead>
+    <tr>
+      <th>Hardware</th>
+      <th align="center">Model</th>
+      <th align="center">Status</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td align="left"><br>Hardware<br>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;</span>
-      </td>
-      <td align="center">Model<br>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;</span>
-      </td>
-      <td align="center"><br>Status<br>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span>&nbsp;&nbsp;</span>
-      </td>
+      <td>Motherboard</td>
+      <td align="center">ASUS Z790-A GAMING WIFI D4</td>
+      <td align="center">❓</td>
     </tr>
     <tr>
-        <td align="left">Motherboard</td>
-        <td align="center">ASUS Z790-A GAMING WIFI D4</td>
-        <td align="center">	❓ </td>
+      <td>CPU</td>
+      <td align="center">13th Gen Intel® Core i9-13900k</td>
+      <td align="center">✅</td>
     </tr>
     <tr>
-        <td align="left">CPU</td>
-        <td align="center">13th Gen Intel® Core i9-13900k</td>
-        <td align="center">	✅ </td>
+      <td>RAM</td>
+      <td align="center">64 GB (Corsair DDR4 3600MHz 16GB x 4)</td>
+      <td align="center">✅</td>
     </tr>
     <tr>
-        <td align="left">RAM</td>
-        <td align="center">64 GB ( Corsair DDR4 3600MHz 16GB x 4 )</td>
-        <td align="center">	✅ </td>
+      <td>GPU</td>
+      <td align="center">ASRock AMD Radeon RX 6800 XT (16 GB)</td>
+      <td align="center">✅</td>
     </tr>
     <tr>
-        <td align="left">GPU</td>
-        <td align="center">ASRock AMD Radeon RX 6800 XT ( 16 GB )</td>
-        <td align="center">	✅ </td>
+      <td>Storage</td>
+      <td align="center">Intel SSDPEKNW512GB NVME</td>
+      <td align="center">✅</td>
     </tr>
     <tr>
-        <td align="left">Storage</td>
-        <td align="center">Intel SSDPEKNW512GB NVME</td>
-        <td align="center">	✅ </td>
+      <td>Ethernet</td>
+      <td align="center">Intel® Ethernet Controller I226-V</td>
+      <td align="center">✅</td>
     </tr>
     <tr>
-        <td align="left">Ethernet</td>
-        <td align="center">Intel® Ethernet Contoller I226-V</td>
-        <td align="center">	✅ </td>
-    </tr>
-    <tr>
-        <td align="left">Wi-fi</td>
-        <td align="center">Intel® Wi-Fi 6E AX211</td>
-        <td align="center">	✅ </td>
+      <td>Wi-Fi</td>
+      <td align="center">Intel® Wi-Fi 6E AX211</td>
+      <td align="center">✅</td>
     </tr>
   </tbody>
 </table>
+
 
 > [!NOTE]
 > These specifications are tailored to my unique setup and may not be universally applicable. Your system may require adjustments and customization for optimal performance.
@@ -295,7 +271,7 @@ This repository is intended for educational and experimental purposes only. Usin
 
 **Thank You:**
 
-We would like to express our gratitude to the Hackintosh community, contributors, and developers who have made this repository possible. Your dedication, support, and shared knowledge have been invaluable in creating a thriving ecosystem for macOS enthusiasts. Together, we continue to explore new horizons and push the boundaries of what's achievable with Hackintosh.
+I would like to express our gratitude to the Hackintosh community, contributors, and developers who have made this repository possible. Your dedication, support, and shared knowledge have been invaluable in creating a thriving ecosystem for macOS enthusiasts. Together, we continue to explore new horizons and push the boundaries of what's achievable with Hackintosh.
 
 Thank you for being a part of this journey!
 
