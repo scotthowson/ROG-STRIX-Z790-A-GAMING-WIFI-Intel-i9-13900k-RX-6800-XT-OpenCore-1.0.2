@@ -158,7 +158,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
     - [x] VDA (Video Decode Acceleration framework)
         - Hackintool -> System -> System -> VDA Decoder (should show 'fully supported')
     - [x] Metal
-        - System Information -> Graphics/Displays -> Metal: Supported
+        - System Information -> Graphics/sDisplays -> Metal: Supported
         - GLView
         - Geekbench -> Compute -> Metal
 4. Audio
@@ -182,9 +182,11 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
         - Use Prime95 Torture Test
 7. Disk
     - Test with Blackmagic Disk Speedtest
-    - [ ] NVMe SSD
-    - [ ] SATA SSD
-    - [ ] TRIM support (System Information -> SATA -> SSD drive)
+    - [x] NVMe SSD
+    - [x] SATA SSD
+    - [x] TRIM support (System Information -> SATA -> SSD drive) 
+> [!NOTE]
+> sudo trimforce enable
 8. Keyboard
     - [x] Option/Command correctly mapped in macOS
         - For PC Keyboards swap in: System preferences -> Keyboard -> Modifier Keys
