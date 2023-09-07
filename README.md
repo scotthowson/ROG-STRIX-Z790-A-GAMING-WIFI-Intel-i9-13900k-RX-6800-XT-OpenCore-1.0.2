@@ -42,7 +42,7 @@ Highest GPU Score: <b>223247</b>
   <tbody>
     <tr>
       <td>Motherboard</td>
-      <td align="center">ASUS Z790-A GAMING WIFI D4</td>
+      <td align="center">ASUS ROG STRIX Z790-A GAMING WIFI D4</td>
       <td align="center">❓</td>
     </tr>
     <tr>
@@ -52,12 +52,12 @@ Highest GPU Score: <b>223247</b>
     </tr>
     <tr>
       <td>RAM</td>
-      <td align="center">64 GB (Corsair DDR4 3600MHz 16GB x 4)</td>
+      <td align="center">64GB Corsair Vengeance RGB Pro 32GB (4 x 16GB)</td>
       <td align="center">✅</td>
     </tr>
     <tr>
       <td>GPU</td>
-      <td align="center">ASRock AMD Radeon RX 6800 XT (16 GB)</td>
+      <td align="center">AMD Radeon™ RX 6800 XT Phantom Gaming D (16 GB)</td>
       <td align="center">✅</td>
     </tr>
     <tr>
