@@ -35,17 +35,53 @@ Prepare to be amazed! 🔥 #SonomaIsComing
 ## Specifications
 
 **Hardware**|**Model**|**Status**
-<div align="center">
-
----|---|---
-Motherboard|ASUS ROG STRIX Z790-A GAMING WIFI D4|❓
-CPU|13th Gen Intel® Core i9-13900k|✅
-RAM|64GB Corsair Vengeance RGB Pro 32GB (4 x 16GB)|✅
-GPU|AMD Radeon™ RX 6800 XT Phantom Gaming D (16 GB)|✅
-Storage|Intel SSDPEKNW512GB NVME|✅
-Ethernet|Intel® Ethernet Controller I226-V|✅
-Wi-Fi|Intel® Wi-Fi 6E AX211|✅
-
+<div align="center" style="width: 100%">
+<table>
+  <thead>
+    <tr>
+      <th>Hardware</th>
+      <th align="center">Model</th>
+      <th align="center">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Motherboard</td>
+      <td align="center">ASUS ROG STRIX Z790-A GAMING WIFI D4</td>
+      <td align="center">❓</td>
+    </tr>
+    <tr>
+      <td>CPU</td>
+      <td align="center">13th Gen Intel® Core i9-13900k</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>RAM</td>
+      <td align="center">64GB Corsair Vengeance RGB Pro 32GB (4 x 16GB)</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>GPU</td>
+      <td align="center">AMD Radeon™ RX 6800 XT Phantom Gaming D (16 GB)</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>Storage</td>
+      <td align="center">Intel SSDPEKNW512GB NVME</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>Ethernet</td>
+      <td align="center">Intel® Ethernet Controller I226-V</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>Wi-Fi</td>
+      <td align="center">Intel® Wi-Fi 6E AX211</td>
+      <td align="center">✅</td>
+    </tr>
+  </tbody>
+</table>
 </div>
 
 > [!NOTE]
@@ -99,32 +135,32 @@ Utilizing OpenCore 0.9.4 with macOS Ventura on your i9-13900K and ASUS Z790-A Ga
 > [!IMPORTANT]
 > Essential kexts crucial for your success.
 
-1. **Lilu Kext**
-   - [Download Lilu](https://github.com/acidanthera/Lilu/releases) 
+1. **Lilu Kext** [^1]
+   - [Download Lilu](https://github.com/acidanthera/Lilu/releases)
 
-2. **VirtualSMC Kexts**
+2. **VirtualSMC Kexts** [^2]
    - [Download VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
 
-3. **WhateverGreen**
+3. **WhateverGreen** [^3]
    - [Download WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
 
-4. **AppleALC**
+4. **AppleALC** [^4]
    - [Download AppleALC](https://github.com/acidanthera/AppleALC/releases)
 
-5. **Airportitlwm**
+5. **Airportitlwm** [^5]
    - [Download Airportitlwm](https://github.com/OpenIntelWireless/itlwm/releases)
 
 > [!IMPORTANT]
 > Non-essential kexts that, while optional, can enhance system stability.
 
-6. **CPUFriend Kext**
+6. **CPUFriend Kext** [^6]
    - [Download CPUFriend](https://github.com/acidanthera/CPUFriend/releases)
 
-7. **CpuTopologyRebuild**
+7. **CpuTopologyRebuild** [^7
    - [Download CpuTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild/releases)
 
 > [!NOTE]
-> For optimal results following any configuration edits, it is recommended to perform an NVRAM reset.
+> For optimal results following any configuration edits, it is recommended to perform an NVRAM reset.  [^8]
 
 ## BIOS
 
