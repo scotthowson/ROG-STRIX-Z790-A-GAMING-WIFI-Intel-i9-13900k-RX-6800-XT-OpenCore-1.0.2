@@ -102,20 +102,13 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
    - https://github.com/acidanthera/CPUFriend/releases [^6]
 7. CpuTopologyRebuild
    - https://github.com/b00t0x/CpuTopologyRebuild/releases [^7]
-8. Airportitlwm
-   - https://github.com/OpenIntelWireless/itlwm/releases [^8]
 
 > [!NOTE]
-> After editing anything in your config, it is best to reset your NVRAM.
-
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-
+> After editing anything in your config, it is best to reset your NVRAM. [^8]
 
 ## BIOS：
 
-
+![Alt text](about-this-mac.png)
 
 ## Hackintosh Checklist - Whats Working?：
 > [!NOTE]
@@ -154,7 +147,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
 4. Audio
     - [x] Audio out (Audio MIDI Setup)
     - [x] Audio in
-    - [] Frontpanel audio connectors
+    - [ ] Frontpanel audio connectors
     - [x] Audio over HDMI
     - [x] Audio quality
 5. Sleep & Power
@@ -215,3 +208,4 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
 [^5]: An Intel Wi-Fi Adapter Kernel Extension for macOS, based on the OpenBSD Project.
 [^6]: A Lilu plug-in for dynamic power management data injection.
 [^7]: An experimental Lilu plugin that optimizes Alder Lake / Raptor Lake's heterogeneous core configuration.
+[^8]: When the HideAuxiliary option is Enabled, you need to press the Space Bar Key on your Keyboard to show all the other options in the picker.
