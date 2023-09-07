@@ -37,7 +37,7 @@ Prepare to be amazed! 🔥 #SonomaIsComing
 <table>
   <thead>
     <tr>
-      <th><b>Hardware</b></th>
+      <th>Hardware</th>
       <th align="center">Model</th>
       <th align="center">Status</th>
     </tr>
@@ -154,7 +154,7 @@ Utilizing OpenCore 0.9.4 with macOS Ventura on your i9-13900K and ASUS Z790-A Ga
 6. **CPUFriend Kext** [^6]
    - [Download CPUFriend](https://github.com/acidanthera/CPUFriend/releases)
 
-7. **CpuTopologyRebuild** [^7
+7. **CpuTopologyRebuild** [^7]
    - [Download CpuTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild/releases)
 
 > [!NOTE]
