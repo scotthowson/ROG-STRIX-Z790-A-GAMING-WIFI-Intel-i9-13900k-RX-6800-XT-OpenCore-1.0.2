@@ -188,7 +188,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
 > [!NOTE]
 > Quick Tip: Enabling TRIM support on your Hackintosh:
 > To enable trim support, simply open up a Terminal, and type in the following command.<br>
-> sudo trimforce enable
+> <b>sudo trimforce enable</b>
 8. Keyboard
     - [x] Option/Command correctly mapped in macOS
         - For PC Keyboards swap in: System preferences -> Keyboard -> Modifier Keys
@@ -200,16 +200,14 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
     - [x] USB 2 on USB 3 ports
     - [x] USB 3 and 3.1 ports (check transfer speed during copy)
     - [x] USB C ports
-    - [ ] SD Card Reader
     - [x] Camera (Photo Booth, Facetime, Zoom)
-    - [ ] Fingerprint reader
 10. Ethernet
     - [x] Gigabit LAN (System preferences -> Network -> Ethernet -> Advanced -> Hardware -> Speed should be 1000baseT)
-    - [ ] 2.5GBase-T (especially on Comet Lake and above boards)
-    - [ ] 10GBase-T (Aquantia with updated firmware)
 11. Wifi & Bluetooth
     - [x] Wifi transmission speed (Option Click -> Wifi menu bar icon -> check Tx Rate)
     - [x] Bluetooth devices (trackpad, mouse, keyboard, headset)
+> [!IMPORTANT]
+> Having issues with AirDrop. Working on a solution. :tada:
     - [ ] AirDrop (test with iDevices)
     - [ ] AirPlay to Mac (macOS Monterey or later, test with iOS 14 or later devices)
         - tap the AirPlay icon on your Apple device to share videos to your Hackintosh
