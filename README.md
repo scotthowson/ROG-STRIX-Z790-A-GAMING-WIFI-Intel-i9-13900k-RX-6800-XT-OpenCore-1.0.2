@@ -30,7 +30,7 @@ Highest GPU Score: <b>223247</b>
 > [!WARNING]
 > I hereby disclaim any responsibility and liability for any damages that may arise from the use of information provided within this repository.
 ## Specifications
-<div align="center" style="width: 100%;">
+<div align="center" style="width: 100%">
 <table>
   <thead>
     <tr>
