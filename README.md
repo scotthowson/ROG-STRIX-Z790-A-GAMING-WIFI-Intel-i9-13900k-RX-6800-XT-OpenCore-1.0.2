@@ -4,6 +4,9 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 About 
 ![Alt text](about-this-mac.png) ![Alt text](about-this-hack.png)
 
+![Alt text](desktop.png)
+
+![Alt text](geekbench6-score.png)
 > [!WARNING]
 > I do not take any responsibility and not liable for any damage caused by use of information through this repository.
 ## Specifications
