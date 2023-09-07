@@ -1,10 +1,10 @@
 # OpenCore 0.9.4 macOS Ventura Hackintosh
- 
-Hackintosh EFI for macOS Ventura & Sonoma (WIP)
-About 
-![Alt text](about-this-mac.png) ![Alt text](about-this-hack.png)
+ ![Alt text](desktop.png)
 
-![Alt text](desktop.png)
+A Hackintosh EFI for macOS Ventura & Sonoma (WIP)
+
+![Alt text](About.png) 
+
 
 ![Alt text](geekbench6-score.png)
 > [!WARNING]
