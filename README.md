@@ -187,7 +187,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
         - Write: 103.4 MB/s
         - Read: 454.1 MB/s
     - [x] TRIM support (System Information -> SATA -> SSD drive) 
-    
+
 > [!NOTE]
 > Quick Tip: Enabling TRIM support on your Hackintosh:
 > To enable trim support, simply open up a Terminal, and type in the following command.<br>
@@ -210,15 +210,13 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
 11. Wifi & Bluetooth
     - [x] Wifi transmission speed (Option Click -> Wifi menu bar icon -> check Tx Rate)
     - [x] Bluetooth devices (trackpad, mouse, keyboard, headset)
-
-> [!IMPORTANT]
-> Having issues with AirDrop. Working on a solution. :tada:
-
     - [ ] AirDrop (test with iDevices)
     - [ ] AirPlay to Mac (macOS Monterey or later, test with iOS 14 or later devices)
         - tap the AirPlay icon on your Apple device to share videos to your Hackintosh
     - [ ] Handoff System requirements for Continuity and Use Continuity which requires macOS Catalina & iOS 13+
     - [ ] Sidecar requires macOS Catalina or later and a compatible iPad using iPadOS 13 or later.
+> [!IMPORTANT]
+> Having issues with AirDrop. Working on a solution. :tada:
 12. OS Features
     - [x] iMessage, FaceTime, App Store, iTunes Store
     - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime and Netflix, and others)
