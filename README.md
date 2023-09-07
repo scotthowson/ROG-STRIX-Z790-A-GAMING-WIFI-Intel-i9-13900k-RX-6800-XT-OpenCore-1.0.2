@@ -9,13 +9,13 @@ About this Mac:
 Geekbench 6 Results:
 
 CPU Scores:
-13th Gen Intel® Core i9-13900k
+<b>13th Gen Intel® Core i9-13900k</b>
 ![Alt text](geekbench6-score.png)
 
 GPU Scores:
-ASRock AMD Radeon RX 6800 XT
+<b>ASRock AMD Radeon RX 6800 XT</b>
 
-Highest GPU Score:
+Highest GPU Score: <b>223247</b>
 ![Alt text](geekbench-6-gpu-highestscore.png)
 ![Alt text](geekbench-6-scores-gpu.png)
 
