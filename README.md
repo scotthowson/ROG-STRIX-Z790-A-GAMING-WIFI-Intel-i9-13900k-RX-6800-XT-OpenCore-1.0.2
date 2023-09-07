@@ -28,7 +28,7 @@ Highest GPU Score: <b>223247</b>
 ![Alt text](geekbench-6-scores-gpu.png)
 
 > [!WARNING]
-> I do not take any responsibility and not liable for any damage caused by use of information through this repository.
+> I hereby disclaim any responsibility and liability for any damages that may arise from the use of information provided within this repository.
 ## Specifications
 
 <table>
@@ -104,11 +104,11 @@ Highest GPU Score: <b>223247</b>
 </table>
 
 > [!NOTE]
-> These are MY custom specifications and it may not work for you & require tweaking.
+> These specifications are tailored to my unique setup and may not be universally applicable. Your system may require adjustments and customization for optimal performance.
 
 ## Kexts：
 > [!IMPORTANT]
-> Crucial kexts that are necessary for you to succeed.
+> Essential kexts crucial for your success.
 
 1. Lili Kext
    - https://github.com/acidanthera/Lilu/releases [^1]
@@ -121,7 +121,7 @@ Highest GPU Score: <b>223247</b>
 5. Airportitlwm
    - https://github.com/OpenIntelWireless/itlwm/releases [^5]
 > [!IMPORTANT]
-> Kexts that are not required.
+> Non-essential kexts that, while optional, can enhance system stability.
 
 6. CPUFriend Kext
    - https://github.com/acidanthera/CPUFriend/releases [^6]
@@ -129,7 +129,7 @@ Highest GPU Score: <b>223247</b>
    - https://github.com/b00t0x/CpuTopologyRebuild/releases [^7]
 
 > [!NOTE]
-> After editing anything in your config, it is best to reset your NVRAM. [^8]
+> For optimal results following any configuration edits, it is recommended to perform an NVRAM reset. [^8]
 
 ## BIOS：
 
