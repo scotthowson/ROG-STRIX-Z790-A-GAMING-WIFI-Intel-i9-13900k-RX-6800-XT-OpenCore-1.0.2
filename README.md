@@ -1,10 +1,10 @@
-# ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4
+# OpenCore 0.9.4 macOS Ventura Hackintosh
  
 Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
-## Specifications
 > [!WARNING]
 > I do not take any responsibility and not liable for any damage caused by use of information through this repository.
+## Specifications
 
 <table>
   <tbody>
@@ -105,7 +105,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 ## Hackintosh Checklist - Whats Working?：
 > [!NOTE]
-> If anything does't work for you, report the issue. <br>
+> If anything does't work for you, report the issue here:<br>
 https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/issues
 1. OpenCore Booting
     - [x] Correct OS choices shown in OpenCore Menu/GUI
