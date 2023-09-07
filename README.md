@@ -35,6 +35,7 @@ Prepare to be amazed! 🔥 #SonomaIsComing
 ## Specifications
 
 **Hardware**|**Model**|**Status**
+<div align="center">
 ---|---|---
 Motherboard|ASUS ROG STRIX Z790-A GAMING WIFI D4|❓
 CPU|13th Gen Intel® Core i9-13900k|✅
@@ -43,6 +44,7 @@ GPU|AMD Radeon™ RX 6800 XT Phantom Gaming D (16 GB)|✅
 Storage|Intel SSDPEKNW512GB NVME|✅
 Ethernet|Intel® Ethernet Controller I226-V|✅
 Wi-Fi|Intel® Wi-Fi 6E AX211|✅
+</div>
 
 > [!NOTE]
 > These specifications are tailored to my unique setup and may not be universally applicable. Your system may require adjustments and customization for optimal performance.
@@ -96,7 +98,7 @@ Utilizing OpenCore 0.9.4 with macOS Ventura on your i9-13900K and ASUS Z790-A Ga
 > Essential kexts crucial for your success.
 
 1. **Lilu Kext**
-   - [Download Lilu](https://github.com/acidanthera/Lilu/releases)
+   - [Download Lilu](https://github.com/acidanthera/Lilu/releases) 
 
 2. **VirtualSMC Kexts**
    - [Download VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
