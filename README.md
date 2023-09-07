@@ -106,7 +106,7 @@ Highest GPU Score: <b>223247</b>
 > [!NOTE]
 > These specifications are tailored to my unique setup and may not be universally applicable. Your system may require adjustments and customization for optimal performance.
 
-## Key Considerations:
+<h4>Key Considerations:</h4>
 - Processor Compatibility: The Intel Core i9-13900K is a powerful CPU, and while OpenCore 0.9.4 provides a versatile platform for macOS, it's essential to ensure that all required kexts and configurations are up-to-date and compatible with this CPU model for optimal performance.
 - ASUS Z790-A Gaming WiFi D4: This motherboard choice is versatile for Hackintosh setups, but it's crucial to research and select compatible kexts and configurations tailored to this specific motherboard model to ensure stability and functionality.
 - macOS Ventura: As macOS Ventura is a relatively new release, staying informed about updates and compatibility with your hardware is vital. OpenCore 0.9.4 may require adjustments and updates to accommodate the latest macOS version.
