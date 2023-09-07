@@ -83,7 +83,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 ## Kexts：
 > [!IMPORTANT]
-> Crucial drivers that are necessary for you to succeed.
+> Crucial kexts that are necessary for you to succeed.
 
 1. Lili Kext
    - https://github.com/acidanthera/Lilu/releases [^1]
@@ -91,8 +91,22 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
    - https://github.com/acidanthera/VirtualSMC/releases [^2]
 3. WhateverGreen
    - https://github.com/acidanthera/WhateverGreen/releases [^3]
-4. Airportitlwm
-   - https://github.com/OpenIntelWireless/itlwm/releases [^4]
+4. AppleALC
+   - https://github.com/acidanthera/AppleALC/releases [^4]
+5. Airportitlwm
+   - https://github.com/OpenIntelWireless/itlwm/releases [^5]
+> [!IMPORTANT]
+> Kexts that are not required.
+
+6. CPUFriend Kext
+   - https://github.com/acidanthera/CPUFriend/releases [^6]
+7. CpuTopologyRebuild
+   - https://github.com/b00t0x/CpuTopologyRebuild/releases [^7]
+8. Airportitlwm
+   - https://github.com/OpenIntelWireless/itlwm/releases [^8]
+
+> [!NOTE]
+> After editing anything in your config, it is best to reset your NVRAM.
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
@@ -116,7 +130,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
     - [x] Security (especially SIP) use Menu Bar SIP Detector
     - [x] FileVault
     - [x] Multibooting
-2. Display
+2. <h4>Display</h4>
     - [x] Display via HDMI
     - [x] Display via HDMI
     - [x] Display via DisplayPort
@@ -197,4 +211,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
 [^1]: An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 [^2]: Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.
 [^3]: A Lilu plugin providing patches to select GPUs on macOS. Requires Lilu 1.5.6 or newer.
-[^4]: An Intel Wi-Fi Adapter Kernel Extension for macOS, based on the OpenBSD Project.
+[^4]: An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. AppleALCU can be used for systems with digital-only audio.
+[^5]: An Intel Wi-Fi Adapter Kernel Extension for macOS, based on the OpenBSD Project.
+[^6]: A Lilu plug-in for dynamic power management data injection.
+[^7]: An experimental Lilu plugin that optimizes Alder Lake / Raptor Lake's heterogeneous core configuration.
