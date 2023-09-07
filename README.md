@@ -422,7 +422,7 @@ Here are some common issues users face when setting up a Hackintosh and their po
 
 ### Seeking Further Assistance
 
-If you encounter issues that aren't covered here or need personalized assistance, consider reaching out to the Hackintosh community forums, Discord servers, or GitHub repositories mentioned in the "Hackintosh Community Resources" section. Remember to provide detailed information about your hardware, configuration, and the specific issue you're facing for more accurate troubleshooting help.
+If you encounter issues that aren't covered here or need personalized assistance, consider reaching out to the Hackintosh community forums, Discord servers, or GitHub repositories mentioned in the ["Hackintosh Community Resources"](#Hackintosh-Community-Resources) section. Remember to provide detailed information about your hardware, configuration, and the specific issue you're facing for more accurate troubleshooting help.
 
 > [!WARNING]
 > Proceed with caution when applying fixes or modifications. Always back up your data and configurations before making changes to your EFI or system files.
