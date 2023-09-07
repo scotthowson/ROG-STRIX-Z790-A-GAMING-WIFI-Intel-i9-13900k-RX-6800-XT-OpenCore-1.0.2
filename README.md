@@ -187,7 +187,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
     - [x] TRIM support (System Information -> SATA -> SSD drive) 
 > [!NOTE]
 > Quick Tip: Enabling TRIM support on your Hackintosh:
-> To enable trim support, simply open up a Terminal, and type in the following command.
+> To enable trim support, simply open up a Terminal, and type in the following command.<br>
 > sudo trimforce enable
 8. Keyboard
     - [x] Option/Command correctly mapped in macOS
