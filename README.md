@@ -186,17 +186,26 @@ cd ~/Downloads/GenSMBIOS
 5. **Airportitlwm** [^5]
    - [Download Airportitlwm](https://github.com/OpenIntelWireless/itlwm/releases)
 
+6. **AppleIGC** [^6]
+   - [Download AppleIGC](https://github.com/SongXiaoXi/AppleIGC/releases)
+
 > [!IMPORTANT]
 > Non-essential kexts that, while optional, can enhance system stability.
 
-6. **CPUFriend Kext** [^6]
+7. **CPUFriend Kext** [^7]
    - [Download CPUFriend](https://github.com/acidanthera/CPUFriend/releases)
 
-7. **CpuTopologyRebuild** [^7]
+8. **CpuTopologyRebuild** [^8]
    - [Download CpuTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild/releases)
 
 > [!NOTE]
-> For optimal results following any configuration edits, it is recommended to perform an NVRAM reset.  [^8]
+> For optimal results following any configuration edits, it is recommended to perform an NVRAM reset.  [^9]
+
+**Conditions for Intel I225-V and 3rd party WiFi/LAN cards to work**
+
+   - [Enabling the Intel I225-V Ethernet Controller](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225_stock_vs_cstmfw.md)
+
+      - Credits: https://github.com/5T33Z0
 
 ## BIOS
 
@@ -349,6 +358,7 @@ Thank you for being a part of this journey!
 [^3]: A Lilu plugin providing patches to select GPUs on macOS. Requires Lilu 1.5.6 or newer.
 [^4]: An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. AppleALCU can be used for systems with digital-only audio.
 [^5]: An Intel Wi-Fi Adapter Kernel Extension for macOS, based on the OpenBSD Project.
-[^6]: A Lilu plug-in for dynamic power management data injection.
-[^7]: An experimental Lilu plugin that optimizes Alder Lake / Raptor Lake's heterogeneous core configuration.
-[^8]: When the HideAuxiliary option is Enabled, you need to press the Space Bar Key on your Keyboard to show all the other options in the picker.
+[^6]: Intel 2.5G Ethernet driver for macOS. Based on the Intel igc implementation in Linux commit 0bf913e07b377cfc288cfe488ca30b7d67059d8a.
+[^7]: A Lilu plug-in for dynamic power management data injection.
+[^8]: An experimental Lilu plugin that optimizes Alder Lake / Raptor Lake's heterogeneous core configuration.
+[^9]: When the HideAuxiliary option is Enabled, you need to press the Space Bar Key on your Keyboard to show all the other options in the picker.
