@@ -1,12 +1,21 @@
 # OpenCore 0.9.4 macOS Ventura Hackintosh
+A Hackintosh EFI & guide for macOS Ventura & Sonoma (WIP)
  ![Alt text](desktop.png)
 
-A Hackintosh EFI for macOS Ventura & Sonoma (WIP)
-
+# Screenshots:
+About this Mac:
 ![Alt text](About.png) 
 
-
+Geekbench 6 Results:
+CPU Scores:
+13th Gen Intel® Core i9-13900k
 ![Alt text](geekbench6-score.png)
+GPU Scores:
+ASRock AMD Radeon RX 6800 XT
+Highest GPU Score:
+![Alt text](geekbench-6-gpu-highestscore.png)
+![Alt text](geekbench-6-scores-gpu.png)
+
 > [!WARNING]
 > I do not take any responsibility and not liable for any damage caused by use of information through this repository.
 ## Specifications
