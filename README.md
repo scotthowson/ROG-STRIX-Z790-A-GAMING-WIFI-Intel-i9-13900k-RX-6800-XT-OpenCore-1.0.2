@@ -201,11 +201,11 @@ cd ~/Downloads/GenSMBIOS
 > [!NOTE]
 > For optimal results following any configuration edits, it is recommended to perform an NVRAM reset.  [^9]
 
-## Enable Intel I225-V Ethernet
+## Enabling Intel I225-V Ethernet
 
-**Conditions for Intel I225-V and 3rd party WiFi/LAN cards to work:**
+**To enable the Intel I225-V Ethernet Controller and ensure compatibility with 3rd-party WiFi/LAN cards, follow this guide:**
 
-- [Enabling the Intel I225-V Ethernet Controller](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225_stock_vs_cstmfw.md)
+- [**Enabling the Intel I225-V Ethernet Controller**](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225_stock_vs_cstmfw.md)
 
   - *Credits:* [5T33Z0](https://github.com/5T33Z0)
 
