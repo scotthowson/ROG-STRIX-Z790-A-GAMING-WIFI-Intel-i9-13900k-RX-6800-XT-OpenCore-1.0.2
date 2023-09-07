@@ -169,7 +169,31 @@ Utilizing OpenCore 0.9.4 with macOS Ventura on your i9-13900K and ASUS Z790-A Ga
 
 ## BIOS：
 
-Adding Info here soon :) Thanks!
+**Disable:**
+
+- Fast Boot
+- Secure Boot
+- Serial/COM Port
+- Parallel Port
+- VT-d (can be enabled if you set DisableIoMapper to YES)
+- Compatibility Support Module (CSM)
+- Thunderbolt (For initial install, as Thunderbolt can cause issues if not set up correctly)
+- Intel SGX
+- Intel Platform Trust
+- CFG Lock (MSR 0xE2 write protection)
+  - This must be off. If you can't find the option, then ENABLE AppleXcpmCfgLock. Your hack will not boot with CFG-Lock enabled.
+
+**Enable:**
+
+- VT-x
+- Above 4G decoding
+  - This must be on. If you can't find the option, then add npci=0x2000 to boot-args. Do not have both this option and npci on boot-args enabled at the same time. When enabling Above4G, Resizable BAR Support may become available on some motherboards. Please ensure this is DISABLED instead of set to Auto.
+- Hyper-Threading
+- Execute Disable Bit
+- EHCI/XHCI Hand-off
+- OS type: Windows 8.1/10 UEFI Mode
+- SATA Mode: AHCI
+
 
 ## Hackintosh Checklist - Whats Working?：
 > [!NOTE]
