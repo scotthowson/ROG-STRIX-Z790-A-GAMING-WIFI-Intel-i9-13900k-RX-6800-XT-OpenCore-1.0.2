@@ -126,7 +126,7 @@ Utilizing OpenCore 0.9.4 with macOS Ventura on your i9-13900K and ASUS Z790-A Ga
 Remember that the Hackintosh community is a valuable resource, and with proper research and maintenance, you can enjoy the benefits of macOS Ventura on your unique hardware configuration.
 
 <ul style="font-size:8px";>
-  <li>
+  <li style="font-size:8px";>
     <strong><a href="https://www.reddit.com/r/hackintosh/" target="_new">r/hackintosh (Reddit):</a></strong>
     A popular subreddit dedicated to Hackintosh discussions, troubleshooting, and community support.
   </li>
