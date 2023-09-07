@@ -125,7 +125,41 @@ Utilizing OpenCore 0.9.4 with macOS Ventura on your i9-13900K and ASUS Z790-A Ga
 
 Remember that the Hackintosh community is a valuable resource, and with proper research and maintenance, you can enjoy the benefits of macOS Ventura on your unique hardware configuration.
 
-<li><p><strong>r/hackintosh (Reddit):</strong> A popular subreddit dedicated to Hackintosh discussions, troubleshooting, and community support. Visit here: <a href="https://www.reddit.com/r/hackintosh/" target="_new">r/hackintosh</a></p></li><li><p><strong>tonymacx86:</strong> This website offers Hackintosh guides, tools, and a community forum where users share their experiences and solutions. Visit here: <a href="https://www.tonymacx86.com/" target="_new">tonymacx86</a></p></li><li><p><strong>InsanelyMac:</strong> A longstanding Hackintosh forum with a wealth of resources, guides, and a community of Hackintosh enthusiasts. Visit here: <a href="https://www.insanelymac.com/" target="_new">InsanelyMac</a></p></li><li><p><strong>OpenCore Bootloader:</strong> The official OpenCore documentation is an essential resource for setting up and configuring your Hackintosh. Visit here: <a href="https://dortania.github.io/OpenCore-Install-Guide/" target="_new">OpenCore</a></p></li><li><p><strong>Hackintosh.com:</strong> This site offers various Hackintosh guides, downloads, and a forum for discussions and support. Visit here: <a href="https://hackintosh.com/" target="_new">Hackintosh.com</a></p></li><li><p><strong>OSx86 Project:</strong> An older community that still provides useful information and resources for Hackintosh users. Visit here: <a href="https://www.osx86project.org/" target="_new">OSx86 Project</a></p></li><li><p><strong>GitHub:</strong> Many Hackintosh projects and drivers can be found on GitHub. Search for specific hardware or software-related repositories to find the latest updates and contributions.</p></li><li><p><strong>Hackintosh Discord Servers:</strong> There are several Discord servers dedicated to Hackintosh enthusiasts. You can search for them on Discord or join the tonymacx86 Discord server, which often has active discussions.</p></li>
+<ul>
+  <li>
+    <strong><a href="https://www.reddit.com/r/hackintosh/" target="_new">r/hackintosh (Reddit):</a></strong>
+    A popular subreddit dedicated to Hackintosh discussions, troubleshooting, and community support.
+  </li>
+  <li>
+    <strong><a href="https://www.tonymacx86.com/" target="_new">tonymacx86:</a></strong>
+    This website offers Hackintosh guides, tools, and a community forum where users share their experiences and solutions.
+  </li>
+  <li>
+    <strong><a href="https://www.insanelymac.com/" target="_new">InsanelyMac:</a></strong>
+    A longstanding Hackintosh forum with a wealth of resources, guides, and a community of Hackintosh enthusiasts.
+  </li>
+  <li>
+    <strong><a href="https://dortania.github.io/OpenCore-Install-Guide/" target="_new">OpenCore Bootloader:</a></strong>
+    The official OpenCore documentation is an essential resource for setting up and configuring your Hackintosh.
+  </li>
+  <li>
+    <strong><a href="https://hackintosh.com/" target="_new">Hackintosh.com:</a></strong>
+    This site offers various Hackintosh guides, downloads, and a forum for discussions and support.
+  </li>
+  <li>
+    <strong><a href="https://www.osx86project.org/" target="_new">OSx86 Project:</a></strong>
+    An older community that still provides useful information and resources for Hackintosh users.
+  </li>
+  <li>
+    <strong>GitHub:</strong>
+    Many Hackintosh projects and drivers can be found on GitHub. Search for specific hardware or software-related repositories to find the latest updates and contributions.
+  </li>
+  <li>
+    <strong>Hackintosh Discord Servers:</strong>
+    There are several Discord servers dedicated to Hackintosh enthusiasts. You can search for them on Discord or join the tonymacx86 Discord server, which often has active discussions.
+  </li>
+</ul>
+
 
 ## Kexts：
 > [!IMPORTANT]
