@@ -164,7 +164,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
 4. Audio
     - [x] Audio out (Audio MIDI Setup)
     - [x] Audio in
-    - [ ] Frontpanel audio connectors
+    - [x] Frontpanel audio connectors
     - [x] Audio over HDMI
     - [x] Audio quality
 5. Sleep & Power
@@ -183,7 +183,11 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
 7. Disk
     - Test with Blackmagic Disk Speedtest
     - [x] NVMe SSD
+     - Write: 878.3 MB/s
+     - Read: 1388.5 MB/s
     - [x] SATA SSD
+        - Write: 103.4 MB/s
+        - Read: 454.1 MB/s
     - [x] TRIM support (System Information -> SATA -> SSD drive) 
 > [!NOTE]
 > Quick Tip: Enabling TRIM support on your Hackintosh:
