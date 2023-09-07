@@ -2,7 +2,7 @@
 A Hackintosh EFI & guide for macOS Ventura & Sonoma: Unveiling Soon! 🚀
  ![Alt text](desktop.png)
 
-Welcome to my Raptor Lake Hackintosh Repository!
+Welcome to my Raptor Lake and 13th Gen Intel Hackintosh Repository!
 
 Whether you're a seasoned Hackintosh enthusiast or a curious newcomer, this repository offers a meticulously curated guide, drivers, and tools, all rigorously tested and fine-tuned for seamless compatibility, stability, and peak performance. Trust me as your go-to source for maximizing your Raptor Lake-based Hackintosh system's potential!
 
@@ -124,6 +124,8 @@ Highest GPU Score: <b>223247</b>
 Utilizing OpenCore 0.9.4 with macOS Ventura on your i9-13900K and ASUS Z790-A Gaming WiFi D4 setup can deliver a high-performance Hackintosh experience. However, staying informed about hardware compatibility, keeping your kexts and configurations up-to-date, and seeking community support when needed are essential steps to ensure a stable and smooth-running system.
 
 Remember that the Hackintosh community is a valuable resource, and with proper research and maintenance, you can enjoy the benefits of macOS Ventura on your unique hardware configuration.
+
+<h4>Hackintosh Community Resources</h4>
 
 <ul style="font-size:8px";>
   <li style="font-size:8px";>
