@@ -4,13 +4,13 @@ A Hackintosh EFI & guide for macOS Ventura & Sonoma: Unveiling Soon! 🚀
 
 ![Desktop Screenshot](desktop-blur.png)
 
-Welcome to my Raptor Lake and 13th Gen Intel Hackintosh Repository!
-
-Whether you're a seasoned Hackintosh enthusiast or a curious newcomer, this repository offers a meticulously curated guide, drivers, and tools, all rigorously tested and fine-tuned for seamless compatibility, stability, and peak performance. Trust me as your go-to source for maximizing your Raptor Lake-based Hackintosh system's potential!
-
-Stay tuned for an exciting revelation that will transform your computing experience. Sonoma is on the horizon, and it's bringing innovation, power, and style like never before.
-
-Prepare to be amazed! 🔥 #SonomaIsComing
+<div align="center">
+  <h1>A Hackintosh EFI & Guide for macOS Ventura & Sonoma: Unveiling Soon! 🚀</h1>
+  <p>Welcome to my Raptor Lake and 13th Gen Intel Hackintosh Repository!</p>
+  <p>Whether you're a seasoned Hackintosh enthusiast or a curious newcomer, this repository offers a meticulously curated guide, drivers, and tools, all rigorously tested and fine-tuned for seamless compatibility, stability, and peak performance. Trust me as your go-to source for maximizing your Raptor Lake-based Hackintosh system's potential!</p>
+  <p>Stay tuned for an exciting revelation that will transform your computing experience. Sonoma is on the horizon, and it's bringing innovation, power, and style like never before.</p>
+  <p>Prepare to be amazed! 🔥 #SonomaIsComing</p>
+</div>
 
 ## Screenshots:
 
