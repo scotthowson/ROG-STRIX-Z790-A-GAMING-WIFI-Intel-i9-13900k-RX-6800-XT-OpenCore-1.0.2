@@ -6,24 +6,24 @@
   <p>Prepare to be amazed! 🔥 #SonomaIsComing</p>
 </div>
 
-![Desktop Screenshot](desktop-blur.png)
+![Desktop Screenshot](Images/desktop-blur.png)
 
 ## Screenshots:
 
 **About This Mac:**
-![About This Mac Screenshot](About.png)
+![About This Mac Screenshot](Images/About.png)
 
 **Geekbench 6 Results:**
 
 **CPU Scores:**
 - **13th Gen Intel® Core i9-13900k**
-![CPU Score Screenshot](geekbench6-score.png)
+![CPU Score Screenshot](Images/geekbench6-score.png)
 
 **GPU Scores:**
 - **ASRock AMD Radeon RX 6800 XT**
   - Highest GPU Score: **223247**
-![GPU Score Screenshot](geekbench-6-gpu-highestscore.png)
-![GPU Scores Screenshot](geekbench-6-scores-gpu.png)
+![GPU Score Screenshot](Images/geekbench-6-gpu-highestscore.png)
+![GPU Scores Screenshot](Images/geekbench-6-scores-gpu.png)
 
 > [!WARNING]
 > I hereby disclaim any responsibility and liability for any damages that may arise from the use of information provided within this repository.
