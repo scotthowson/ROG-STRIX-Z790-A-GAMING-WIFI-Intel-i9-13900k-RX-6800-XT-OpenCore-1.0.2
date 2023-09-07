@@ -1,6 +1,6 @@
 # OpenCore 0.9.4 macOS Ventura Hackintosh
 A Hackintosh EFI & guide for macOS Ventura & Sonoma: Unveiling Soon! 🚀
- ![Alt text](desktop.png)
+ ![Alt text](desktop-blur.png)
 
 Welcome to my Raptor Lake and 13th Gen Intel Hackintosh Repository!
 
