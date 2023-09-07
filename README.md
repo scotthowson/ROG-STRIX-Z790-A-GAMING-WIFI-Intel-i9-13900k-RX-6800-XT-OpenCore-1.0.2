@@ -33,13 +33,11 @@ Prepare to be amazed! 🔥 #SonomaIsComing
 > I hereby disclaim any responsibility and liability for any damages that may arise from the use of information provided within this repository.
 
 ## Specifications
-
-**Hardware**|**Model**|**Status**
 <div align="center" style="width: 100%">
 <table>
   <thead>
     <tr>
-      <th>Hardware</th>
+      <th><b>Hardware</b></th>
       <th align="center">Model</th>
       <th align="center">Status</th>
     </tr>
