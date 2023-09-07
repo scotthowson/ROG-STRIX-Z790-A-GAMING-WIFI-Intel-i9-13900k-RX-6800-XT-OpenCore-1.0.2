@@ -287,6 +287,20 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
     - [x] iMessage, FaceTime, App Store, iTunes Store
     - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime and Netflix, and others)
 
+---
+
+**Disclaimer:**
+
+This repository is intended for educational and experimental purposes only. Using macOS on non-Apple hardware, also known as Hackintosh, may violate Apple's End User License Agreement (EULA). The process involves potential risks, including but not limited to data loss or instability. By using the information and resources provided here, you agree that you are solely responsible for any consequences that may arise. Always ensure you have proper backups and proceed at your own risk.
+
+**Thank You:**
+
+We would like to express our gratitude to the Hackintosh community, contributors, and developers who have made this repository possible. Your dedication, support, and shared knowledge have been invaluable in creating a thriving ecosystem for macOS enthusiasts. Together, we continue to explore new horizons and push the boundaries of what's achievable with Hackintosh.
+
+Thank you for being a part of this journey!
+
+---
+
 
 <h6>Footnotes:</h6>
 
