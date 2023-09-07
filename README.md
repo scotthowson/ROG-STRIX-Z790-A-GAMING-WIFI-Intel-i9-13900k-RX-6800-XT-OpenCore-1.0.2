@@ -301,7 +301,7 @@ I would like to express our gratitude to the Hackintosh community, contributors,
 Thank you for being a part of this journey!
 
 <details>
-  <summary><strong>Footnotes</strong>
+  <summary><strong>Footnotes</strong></summary>
 
     - [^1]: An open-source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
     - [^2]: Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.
@@ -311,6 +311,6 @@ Thank you for being a part of this journey!
     - [^6]: A Lilu plug-in for dynamic power management data injection.
     - [^7]: An experimental Lilu plugin that optimizes Alder Lake / Raptor Lake's heterogeneous core configuration.
     - [^8]: When the HideAuxiliary option is Enabled, you need to press the Space Bar Key on your Keyboard to show all the other options in the picker.
-    
-</summary>
+
+
 </details>
