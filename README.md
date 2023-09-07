@@ -30,7 +30,7 @@ Highest GPU Score: <b>223247</b>
 > [!WARNING]
 > I hereby disclaim any responsibility and liability for any damages that may arise from the use of information provided within this repository.
 ## Specifications
-
+<p align="center">
 <table>
   <thead>
     <tr>
@@ -77,7 +77,7 @@ Highest GPU Score: <b>223247</b>
     </tr>
   </tbody>
 </table>
-
+</p>
 
 > [!NOTE]
 > These specifications are tailored to my unique setup and may not be universally applicable. Your system may require adjustments and customization for optimal performance.
