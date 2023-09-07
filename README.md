@@ -1,6 +1,8 @@
 # OpenCore 0.9.4 macOS Ventura Hackintosh
  
 Hackintosh EFI for macOS Ventura & Sonoma (WIP)
+About 
+![Alt text](about-this-mac.png) ![Alt text](about-this-hack.png)
 
 > [!WARNING]
 > I do not take any responsibility and not liable for any damage caused by use of information through this repository.
@@ -108,7 +110,7 @@ Hackintosh EFI for macOS Ventura & Sonoma (WIP)
 
 ## BIOS：
 
-![Alt text](about-this-mac.png)
+
 
 ## Hackintosh Checklist - Whats Working?：
 > [!NOTE]
