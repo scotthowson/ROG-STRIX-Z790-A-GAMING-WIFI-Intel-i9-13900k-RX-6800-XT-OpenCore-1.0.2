@@ -130,7 +130,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
     - [x] Security (especially SIP) use Menu Bar SIP Detector
     - [x] FileVault
     - [x] Multibooting
-2. <h4>Display</h4>
+<h4>2. Display</h4>
     - [x] Display via HDMI
     - [x] Display via HDMI
     - [x] Display via DisplayPort
