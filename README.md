@@ -1,6 +1,14 @@
 # OpenCore 0.9.4 macOS Ventura Hackintosh
-A Hackintosh EFI & guide for macOS Ventura & Sonoma (WIP)
+A Hackintosh EFI & guide for macOS Ventura & Sonoma: Unveiling Soon! 🚀
  ![Alt text](desktop.png)
+
+Welcome to my Raptor Lake Hackintosh Repository!
+
+Whether you're a seasoned Hackintosh enthusiast or a curious newcomer, this repository offers a meticulously curated guide, drivers, and tools, all rigorously tested and fine-tuned for seamless compatibility, stability, and peak performance. Trust me as your go-to source for maximizing your Raptor Lake-based Hackintosh system's potential!
+
+Stay tuned for an exciting revelation that will transform your computing experience. Sonoma is on the horizon, and it's bringing innovation, power, and style like never before.
+
+Prepare to be amazed! 🔥 #SonomaIsComing
 
 # Screenshots:
 About this Mac:
