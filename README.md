@@ -341,6 +341,93 @@ cd ~/Downloads/GenSMBIOS
     - [x] iMessage, FaceTime, App Store, iTunes Store
     - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime, Netflix, and others)
 
+## Troubleshooting
+
+Encountering issues with your Hackintosh setup? Don't worry; many users face challenges during the installation and configuration process. This Troubleshooting section aims to provide solutions to common problems. Before diving into the troubleshooting steps, please ensure that you have backed up your data and configurations.
+
+### General Troubleshooting Tips
+
+Before addressing specific issues, consider the following general troubleshooting tips:
+
+- **Check Your EFI Configuration:** Ensure your EFI folder contains the necessary kexts, ACPI patches, and configuration files. Verify that you've followed the guide's recommendations for your hardware.
+
+- **Check Hardware Compatibility:** Confirm that your hardware components (CPU, motherboard, GPU, etc.) are compatible with macOS and your chosen OpenCore version.
+
+- **Update OpenCore:** Make sure you're using the latest version of OpenCore. Sometimes, updating to a newer release can resolve compatibility issues.
+
+- **Check for Errors:** Keep an eye out for error messages during the boot process. These can provide valuable clues about what's wrong.
+
+### Common Issues and Solutions
+
+Here are some common issues users face when setting up a Hackintosh and their potential solutions:
+
+#### **1. Booting Fails or Stuck at Apple Logo**
+
+- **Issue:** Your system doesn't boot, or it gets stuck at the Apple logo.
+
+- **Solution:**
+  - Check your EFI configuration for errors, including kexts and ACPI patches.
+  - Verify that your config.plist settings match your hardware and chosen OpenCore version.
+  - Consider booting in verbose mode (`-v`) to identify where the boot process fails.
+
+#### **2. Graphics Glitches or Poor Performance**
+
+- **Issue:** You experience graphical glitches, poor performance, or your GPU isn't recognized correctly.
+
+- **Solution:**
+  - Ensure that you've correctly injected your GPU in your config.plist.
+  - Update your GPU drivers (WhateverGreen, Lilu) to the latest versions.
+  - Check for any conflicts between kexts or ACPI patches related to graphics.
+
+#### **3. Audio and Networking Problems**
+
+- **Issue:** Your audio isn't working, or you have issues with network connectivity.
+
+- **Solution:**
+  - Verify that you're using the appropriate audio and networking kexts for your hardware.
+  - Check for conflicting kexts that might interfere with audio or network functionality.
+
+#### **4. Sleep/Wake Issues**
+
+- **Issue:** Your Hackintosh doesn't go to sleep, or it has trouble waking up from sleep.
+
+- **Solution:**
+  - Review your config.plist settings related to power management and sleep.
+  - Ensure that your SSDT for power management is correctly patched for your hardware.
+
+#### **5. Kernel Panics or System Crashes**
+
+- **Issue:** Your system frequently experiences kernel panics or crashes.
+
+- **Solution:**
+  - Check your EFI configuration for unstable or outdated kexts.
+  - Review your ACPI patches for any potential conflicts.
+  - Monitor system logs (Console) for error messages that can help identify the cause.
+
+#### **6. USB Port Issues**
+
+- **Issue:** You have problems with USB ports, such as devices not recognized or intermittent disconnects.
+
+- **Solution:**
+  - Create a USB map to ensure proper USB port configuration.
+  - Check for USB-related issues in your config.plist.
+
+#### **7. Bluetooth and Wi-Fi Problems**
+
+- **Issue:** Your Bluetooth or Wi-Fi isn't working as expected.
+
+- **Solution:**
+  - Ensure that you're using compatible Bluetooth and Wi-Fi kexts for your hardware.
+  - Verify that your hardware is supported by macOS.
+
+### Seeking Further Assistance
+
+If you encounter issues that aren't covered here or need personalized assistance, consider reaching out to the Hackintosh community forums, Discord servers, or GitHub repositories mentioned in the "Hackintosh Community Resources" section. Remember to provide detailed information about your hardware, configuration, and the specific issue you're facing for more accurate troubleshooting help.
+
+> [!WARNING]
+> Proceed with caution when applying fixes or modifications. Always back up your data and configurations before making changes to your EFI or system files.
+
+
 ---
 
 **Disclaimer:**
