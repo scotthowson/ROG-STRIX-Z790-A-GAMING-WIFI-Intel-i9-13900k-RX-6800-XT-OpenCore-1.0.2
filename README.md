@@ -187,10 +187,12 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
         - Write: 103.4 MB/s
         - Read: 454.1 MB/s
     - [x] TRIM support (System Information -> SATA -> SSD drive) 
+    
 > [!NOTE]
 > Quick Tip: Enabling TRIM support on your Hackintosh:
 > To enable trim support, simply open up a Terminal, and type in the following command.<br>
 > <b>sudo trimforce enable</b>
+
 8. Keyboard
     - [x] Option/Command correctly mapped in macOS
         - For PC Keyboards swap in: System preferences -> Keyboard -> Modifier Keys
@@ -208,6 +210,7 @@ https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-
 11. Wifi & Bluetooth
     - [x] Wifi transmission speed (Option Click -> Wifi menu bar icon -> check Tx Rate)
     - [x] Bluetooth devices (trackpad, mouse, keyboard, headset)
+
 > [!IMPORTANT]
 > Having issues with AirDrop. Working on a solution. :tada:
 
