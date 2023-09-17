@@ -285,6 +285,69 @@ cd ~/Downloads/GenSMBIOS
 - OS type: Windows 8.1/10 UEFI Mode
 - SATA Mode: AHCI
 
+## Enabling FileVault on Your Hackintosh
+
+FileVault is a security feature in macOS that encrypts the contents of your disk, adding an extra layer of protection to your data. Enabling FileVault on your Hackintosh is possible, but it requires some additional considerations and configurations. Here's a step-by-step guide to help you set up FileVault:
+
+1. **Ensure Stable Hackintosh Setup**: Before proceeding, make sure your Hackintosh is stable and all hardware components are working correctly. FileVault can be sensitive to system changes, so a stable setup is essential.
+
+2. **Backup Your Data**: It's crucial to back up all your data before enabling FileVault. In rare cases, issues during the encryption process can lead to data loss.
+
+3. **Generate a New SMBIOS**: FileVault is tied to your system's unique identifier. If you haven't already, generate a new SMBIOS (System Management BIOS) to mimic a real Mac. This helps in ensuring compatibility.
+
+4. **Enable FileVault**:
+   - Go to **System Preferences** > **Security & Privacy** > **FileVault**.
+   - Click the lock icon and enter your administrator password.
+   - Click the "Turn On FileVault" button.
+   - You'll be asked to create a recovery key. Make sure to save it in a secure place; it can be crucial for data recovery in case you forget your password.
+
+5. **Encryption Process**: Your Hackintosh will start the encryption process, which may take a while depending on the size of your disk. During this time, you can continue to use your computer, but it might be slower than usual.
+
+6. **Reboot and Test**: After the encryption is complete, reboot your Hackintosh and test whether FileVault works as expected. You should be prompted to enter your password or use your recovery key to unlock your disk at boot.
+
+7. **Backup Your Recovery Key**: Keep your recovery key safe. If you lose it, you might lose access to your data. You can also store it securely with Apple if you have an Apple ID.
+
+8. **Ongoing Use**: FileVault should now be enabled and protecting your data. Continue to use your Hackintosh as usual, and FileVault will automatically encrypt and decrypt your files in the background.
+
+Please note that while enabling FileVault adds an extra layer of security, it may also introduce some complexities and potential issues. Make sure to have a good understanding of Hackintoshing and macOS security before enabling FileVault. Always keep your system and data backed up, and proceed with caution.
+
+## Understanding OpenCore Vault for Added Security
+
+The OpenCore Vault is a security feature designed to enhance the protection of your Hackintosh system's EFI configuration. It consists of two key components: `vault.plist` and `vault.sig`:
+
+- **vault.plist**: This file acts as a "snapshot" of your EFI configuration.
+- **vault.sig**: It's a validation file that verifies the integrity of `vault.plist`.
+
+Think of the OpenCore Vault as a secure boot mechanism for OpenCore, ensuring that no unauthorized modifications can be made to your EFI configuration without your permission.
+
+### How Vaulting Works
+
+The specifics of vaulting involve the creation of a 256-byte RSA-2048 signature of the `vault.plist`. This signature is then incorporated into your `OpenCore.efi` bootloader. You can insert this key either into `OpenCoreVault.c` before compiling or use the `sign.command` tool if you already have `OpenCore.efi` compiled.
+
+Please note that `nvram.plist` won't be vaulted. Therefore, users with emulated NVRAM may still face risks related to unauthorized changes to specific NVRAM variables.
+
+### Configuring Vault in Your `config.plist`
+
+To set up the OpenCore Vault, you need to configure it in your `config.plist`. Here's how:
+
+- **Misc -> Security -> Vault**:
+    - - **Basic**: Requires only `vault.plist` to be present, mainly used for filesystem integrity verification.
+    - - **Secure**: Requires both `vault.plist` and `vault.sig`, providing the highest level of security as changes to `vault.plist` necessitate a new signature.
+- **Booter -> ProtectSecureBoot**: Set this option to `YES`.
+    - - This setting is essential, especially for systems with Insyde firmware, as it helps fix secure boot keys and reports violations.
+
+### Setting Up the OpenCore Vault
+
+To set up the OpenCore Vault, you'll need to access the OpenCorePkg repository and navigate to the `CreateVault` folder. Inside this folder, you'll find several files, but the one we're interested in is `sign.command`.
+
+Here's how to configure your OpenCore Vault:
+
+1. Run the `sign.command` script.
+2. It will search for the EFI folder located next to the `Utilities` folder. Ensure that you have either placed your personal EFI configuration inside the OpenCorePkg folder or moved the `Utilities` folder into your EFI directory.
+
+By following these steps, you enable the OpenCore Vault feature, adding an extra layer of security to your Hackintosh system, safeguarding your EFI configuration from unauthorized modifications.
+
+
 ## Hackintosh Checklist - What's Working?
 
 > [!NOTE]
