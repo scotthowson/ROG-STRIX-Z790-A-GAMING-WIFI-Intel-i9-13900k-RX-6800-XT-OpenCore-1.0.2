@@ -5,7 +5,7 @@
 	<key>#Maintainer</key>
 	<string>Scott J. Howson</string>
 	<key>#Version</key>
-	<string>Rendition 1 | OpenCore 0.9.4 | Ventura | Sonoma| i9-13900k | RX 6800 XT</string>
+	<string>Rendition 2 | OpenCore 0.9.6 | Sonoma Beta 7 | i9-13900k | RX 6800 XT</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -154,7 +154,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AA==</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -184,7 +184,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AA==</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -214,7 +214,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AA==</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -244,7 +244,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AA==</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -274,7 +274,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AA==</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -334,7 +334,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>AA==</data>
+				<data></data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -407,15 +407,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>device-id</key>
-				<data>8hUAAA==</data>
-				<key>device_type</key>
-				<string>Ethernet Controller</string>
-				<key>model</key>
-				<string>Intel(R) Ethernet Controller i226-V</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>@0,name</key>
@@ -429,15 +420,61 @@
 				<key>device_type</key>
 				<string>ATY,BelknapParent</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1B,0x4)/Pci(0x0,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
 			<dict>
-				<key>built-in</key>
-				<data>AQAAAA==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,1,0/0,0/0,0/0,1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>AMD Radeon RX 6800 XT</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x6,0x0)/Pci(0x0,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
-				<key>built-in</key>
-				<data>AQAAAA==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>layout-id</key>
+				<data>EQ==</data>
+				<key>model</key>
+				<string>ROG SupremeFX 7.1 ALC4080</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,2</string>
+				<key>device_type</key>
+				<string>RAM memory</string>
+				<key>model</key>
+				<string>ROG STRIX Z790-A GAMING WIFI D4 Dual Channel Memory Architecture</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,4</string>
+				<key>device_type</key>
+				<string>SMBus</string>
+				<key>model</key>
+				<string>ROG STRIX Z790-A GAMING WIFI D4 SMBus</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,3/0,0</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>Intel(R) Ethernet Controller I225-V / Intel(R) Ethernet Controller I226</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,0/0,0</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>Intel(R) Wi-Fi 6E AX210</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -453,7 +490,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>V1.6.7 | Patch engine</string>
+				<string>Patch engine</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -471,7 +508,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>V1.3.3 | SMC emulator</string>
+				<string>SMC emulator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -489,7 +526,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>V1.6.6</string>
+				<string>Video patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -498,6 +535,96 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string>10.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AppleALC.kext</string>
+				<key>Comment</key>
+				<string>Audio patches</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleALC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>8.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCProcessor.kext</string>
+				<key>Comment</key>
+				<string>V1.3.3 | SMCProcessor.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCProcessor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCSuperIO.kext</string>
+				<key>Comment</key>
+				<string>V1.3.3 | SMCSuperIO.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>RadeonSensor.kext</string>
+				<key>Comment</key>
+				<string>V1.3.0 | RadeonSensor.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RadeonSensor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>SMCRadeonGPU.kext</string>
+				<key>Comment</key>
+				<string>V1.3.0 | SMCRadeonGPU.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCRadeonGPU</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -530,60 +657,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/RestrictEvents</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AppleALC.kext</string>
-				<key>Comment</key>
-				<string>V1.8.4 | Audio patches</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleALC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string>8.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>NVMeFix.kext</string>
-				<key>Comment</key>
-				<string>V1.1.1</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NVMeFix</string>
-				<key>MaxKernel</key>
-				<string>22.9.9</string>
-				<key>MinKernel</key>
-				<string>18.0.0</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBMap.kext</string>
-				<key>Comment</key>
-				<string>V1.0</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -631,35 +704,53 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>CpuTscSync.kext</string>
+				<key>Comment</key>
+				<string>V1.1.0 | CpuTscSync</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CpuTscSync</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>AppleIGC.kext</string>
 				<key>Comment</key>
-				<string>V2.3.1 | AppleIntelI210Ethernet.kext</string>
+				<string>AppleIGC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleIGC</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.9.9</string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>22.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>Arch</key>
-				<string>Any</string>
+				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>RadeonSensor.kext</string>
+				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>V0.3.3 | RadeonSensor.kext</string>
+				<string>V1.1.1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RadeonSensor</string>
+				<string>Contents/MacOS/NVMeFix</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.9.9</string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>18.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -667,49 +758,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SMCProcessor.kext</string>
+				<string>USBMap.kext</string>
 				<key>Comment</key>
-				<string>V1.3.3 | SMCProcessor.kext</string>
+				<string>V1.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCProcessor</string>
-				<key>MaxKernel</key>
 				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>SMCRadeonGPU.kext</string>
-				<key>Comment</key>
-				<string>V0.3.3 | SMCRadeonGPU.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCRadeonGPU</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>SMCSuperIO.kext</string>
-				<key>Comment</key>
-				<string>V1.3.3 | SMCSuperIO.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -757,24 +812,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BlueToolFixup.kext</string>
-				<key>Comment</key>
-				<string>V2.6.7 | BlueToolFixup.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BlueToolFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
 				<string>V2.2.0 | IntelBluetoothFirmware.kext</string>
@@ -807,6 +844,42 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string>V2.6.7 | BlueToolFixup.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>DebugEnhancer.kext</string>
+				<key>Comment</key>
+				<string>DebugEnhancer</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/DebugEnhancer</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -829,37 +902,7 @@
 		<array>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Base</key>
-				<string>__Z18e1000_set_mac_typeP8e1000_hw</string>
-				<key>Comment</key>
-				<string>I225-V patch</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>8hUAAA==</data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleIntelI210Ethernet</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string>20.4.0</string>
-				<key>MinKernel</key>
-				<string>19.0.0</string>
-				<key>Replace</key>
-				<data>8xUAAA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
 				<key>Base</key>
 				<string>__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime</string>
 				<key>Comment</key>
@@ -882,6 +925,36 @@
 				<string>19.0.0</string>
 				<key>Replace</key>
 				<data>ww==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>AEFQUExFIFNTRAA=</data>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>AAAAAAAAAAAAAAA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -963,6 +1036,8 @@
 			<false/>
 			<key>HideAuxiliary</key>
 			<true/>
+			<key>InstanceIdentifier</key>
+			<string></string>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -974,7 +1049,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Acidanthera\GoldenGate</string>
+			<string>IllSaft\Flat</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -982,7 +1057,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1013,13 +1088,13 @@
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>Name</key>
-				<string>CustomOS</string>
+				<string>Windows 11</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<string>PciRoot(0x0)/Pci(0x6,0x0)/Pci(0x0,0x0)/NVMe(0x1,00-00-00-00-00-00-00-00)/HD(1,GPT,6BB63DD2-EF3D-4B26-899B-FB495EEA91BB,0x28,0x64000) /\EFI\Microsoft\Boot\bootmgfw-orig.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1031,7 +1106,7 @@
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
-			<true/>
+			<false/>
 			<key>BlacklistAppleUpdate</key>
 			<false/>
 			<key>DmgLoading</key>
@@ -1068,7 +1143,7 @@
 				<key>FifoControl</key>
 				<integer>7</integer>
 				<key>LineControl</key>
-				<integer>3</integer>
+				<integer>7</integer>
 				<key>PciDeviceInfo</key>
 				<data>/w==</data>
 				<key>RegisterAccessWidth</key>
@@ -1113,21 +1188,21 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string>Shutdown</string>
+				<string></string>
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>Perform shutdown</string>
+				<string>Clean Nvram</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>FullNvramAccess</key>
 				<false/>
 				<key>Name</key>
-				<string>Shutdown</string>
+				<string>CleanNvram</string>
 				<key>Path</key>
-				<string>ResetSystem.efi</string>
+				<string>CleanNvram.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
@@ -1139,7 +1214,29 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>CleanNvram.efi</string>
+				<string>Memory testing utility</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>MemTest</string>
+				<key>FullNvramAccess</key>
+				<false/>
+				<key>Name</key>
+				<string>memtest86</string>
+				<key>Path</key>
+				<string>memtest86/BOOTX64.efi</string>
+				<key>RealPath</key>
+				<true/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string>Shutdown</string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>Perform shutdown</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Flavour</key>
@@ -1147,9 +1244,9 @@
 				<key>FullNvramAccess</key>
 				<false/>
 				<key>Name</key>
-				<string>CleanNvram.efi</string>
+				<string>Shutdown</string>
 				<key>Path</key>
-				<string>CleanNvram.efi</string>
+				<string>ResetSystem.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
@@ -1169,9 +1266,9 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>revcpu</key>
-				<integer>1</integer>
+				<data></data>
 				<key>revcpuname</key>
-				<string>Intel(R) Core(TM) i9-13900K</string>
+				<data>AAAAAAwAAAAA/zkA</data>
 				<key>rtc-blacklist</key>
 				<data></data>
 			</dict>
@@ -1181,18 +1278,18 @@
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
+				<key>boot-args</key>
+				<string>keepsyms=1 -lilubetaall gfxrst=1 -ctrsmt agdpmod=pikera -wegnoigpu e1000=0</string>
+				<key>csr-active-config</key>
+				<data>AAAAAA==</data>
+				<key>prev-lang:kbd</key>
+				<data>DgAA</data>
+				<key>run-efi-updater</key>
+				<string>No</string>
 				<key>bluetoothExternalDongleFailed</key>
 				<data>AA==</data>
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
-				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -ctrsmt agdpmod=pikera -wegnoigpu igfxonln=1 e1000=0</string>
-				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
-				<key>prev-lang:kbd</key>
-				<string>en-US:0</string>
-				<key>run-efi-updater</key>
-				<string>No</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1204,7 +1301,6 @@
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
 				<string>rtc-blacklist</string>
-				<string>opencore-version</string>
 				<string>revcpuname</string>
 				<string>revcpu</string>
 			</array>
@@ -1236,6 +1332,8 @@
 				<string>fmm-mobileme-token-FMM-BridgeHasAccount</string>
 				<string>nvda_drv</string>
 				<string>prev-lang:kbd</string>
+				<string>backlight-level</string>
+				<string>BootCampHD</string>
 			</array>
 			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
 			<array>
@@ -1260,21 +1358,21 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>~~**CHANGE-ME**~~</string>
+			<string></string>
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
-			<data>~~**CHANGE-ME**~~</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
+			<string>Upgradable</string>
 			<key>SystemProductName</key>
 			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>~~**CHANGE-ME**~~</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>~~**CHANGE-ME**~~</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1368,11 +1466,35 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>LoadEarly</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenVariableRuntimeDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>HFS+ Driver</string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>HfsPlus.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1402,13 +1524,13 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>HfsPlus.efi</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
-				<string>HfsPlus.efi</string>
+				<string>ResetNvramEntry.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -1461,7 +1583,7 @@
 			<key>Resolution</key>
 			<string>Max</string>
 			<key>SanitiseClearScreen</key>
-			<true/>
+			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
