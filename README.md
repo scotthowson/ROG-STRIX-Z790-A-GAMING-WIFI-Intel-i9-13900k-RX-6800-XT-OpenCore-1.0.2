@@ -5,6 +5,7 @@
   <p>Stay tuned for an exciting revelation that will transform your computing experience. Sonoma is on the horizon, and it's bringing innovation, power, and style like never before.</p>
   <p>Prepare to be amazed! 🔥 #SonomaIsComing</p>
 </div>
+
 <div align="center">
 <h1>🚀 Success Story: Sonoma with OpenCore 0.9.6 🚀</h1>
 
