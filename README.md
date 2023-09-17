@@ -11,6 +11,9 @@
 ## Screenshots:
 
 **About This Mac:**
+**macOS Sonoma:**
+![About This Mac Screenshot](Images/about-all-sonoma.png)
+**macOS Ventura:**
 ![About This Mac Screenshot](Images/About.png)
 
 **Geekbench 6 Results:**
