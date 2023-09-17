@@ -1,16 +1,18 @@
 <div align="center">
-  <h1>A Hackintosh EFI & Guide for macOS Ventura & Sonoma: Unveiling Soon! 🚀</h1>
+  <h1>Sonoma is Here: Your Ultimate Hackintosh EFI & Guide 🚀</h1>
   <p>Welcome to my Raptor Lake and 13th Gen Intel Hackintosh Repository!</p>
   <p>Whether you're a seasoned Hackintosh enthusiast or a curious newcomer, this repository offers a meticulously curated guide, drivers, and tools, all rigorously tested and fine-tuned for seamless compatibility, stability, and peak performance. Trust me as your go-to source for maximizing your Raptor Lake-based Hackintosh system's potential!</p>
-  <p>Stay tuned for an exciting revelation that will transform your computing experience. Sonoma is on the horizon, and it's bringing innovation, power, and style like never before.</p>
-  <p>Prepare to be amazed! 🔥 #SonomaIsComing</p>
+  <p>Sonoma has arrived, and it's about to revolutionize your computing experience with innovation, power, and style like never before.</p>
+  <p>Get ready to be amazed! </p>
+  <p>🔥 #SonomaIsHere 🔥</p>
 </div>
 
 <div align="center">
 <h1>🚀 Success Story: Sonoma with OpenCore 0.9.6 🚀</h1>
 
-<p>I'm thrilled to share that I've successfully set up Sonoma on my system using OpenCore 0.9.6! With meticulous configuration and the latest updates, my Hackintosh is now running smoothly with Sonoma's innovative features. It's a testament to the incredible Hackintosh community's dedication and support. Here's to pushing the boundaries of what's possible with macOS! 🎉 </p><p>#Hackintosh #SonomaSuccess"</p>
+<p>I'm thrilled to share that I've successfully set up Sonoma on my system using OpenCore 0.9.6! With meticulous configuration and the latest updates, my Hackintosh is now running smoothly with Sonoma's innovative features. It's a testament to the incredible Hackintosh community's dedication and support. Here's to pushing the boundaries of what's possible with macOS! 🎉 </p><p>🔥 #Hackintosh #SonomaSuccess 🔥</p>
 </div>
+
 **macOS Sonoma:**
 ![Desktop Screenshot](Images/desktop-sonoma-blur.png)
 **macOS Ventura:**
