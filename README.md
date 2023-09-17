@@ -6,11 +6,15 @@
   <p>Prepare to be amazed! 🔥 #SonomaIsComing</p>
 </div>
 
+**macOS Sonoma:**
+![Desktop Screenshot](Images/desktop-sonoma-blur.png)
+**macOS Ventura:**
 ![Desktop Screenshot](Images/desktop-blur.png)
 
 ## Screenshots:
 
 **About This Mac:**
+
 **macOS Sonoma:**
 ![About This Mac Screenshot](Images/about-all-sonoma.png)
 **macOS Ventura:**
