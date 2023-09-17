@@ -347,6 +347,7 @@ Here's how to configure your OpenCore Vault:
 
 By following these steps, you enable the OpenCore Vault feature, adding an extra layer of security to your Hackintosh system, safeguarding your EFI configuration from unauthorized modifications.
 
+  - *Credits:* [Dortania | Vault](https://dortania.github.io/OpenCore-Post-Install/universal/security/vault.html)
 
 ## Hackintosh Checklist - What's Working?
 
