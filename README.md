@@ -55,17 +55,12 @@
   <tbody>
     <tr>
       <td>Motherboard</td>
-      <td align="center">ASUS ROG STRIX Z790-A GAMING WIFI D4</td>
-      <td align="center">❓</td>
+      <td align="center">Asus ROG Strix Z790-A Gaming Wi-fi D4</td>
+      <td align="center">✅</td>
     </tr>
     <tr>
       <td>CPU</td>
       <td align="center">13th Gen Intel® Core i9-13900k</td>
-      <td align="center">✅</td>
-    </tr>
-    <tr>
-      <td>RAM</td>
-      <td align="center">64GB Corsair Vengeance RGB Pro 32GB (4 x 16GB)</td>
       <td align="center">✅</td>
     </tr>
     <tr>
@@ -74,18 +69,53 @@
       <td align="center">✅</td>
     </tr>
     <tr>
-      <td>Storage</td>
-      <td align="center">Intel SSDPEKNW512GB NVME</td>
+      <td>RAM</td>
+      <td align="center">64GB Corsair Vengeance RGB Pro 32GB (4 x 16GB)</td>
       <td align="center">✅</td>
     </tr>
     <tr>
       <td>Ethernet</td>
-      <td align="center">Intel® Ethernet Controller I226-V</td>
+      <td align="center">Intel® Ethernet Controller I225-V</td>
       <td align="center">✅</td>
     </tr>
     <tr>
-      <td>Wi-Fi</td>
-      <td align="center">Intel® Wi-Fi 6E AX211</td>
+      <td>Wi-Fi & Bluetooth</td>
+      <td align="center">Intel® Wi-Fi 6E AX210</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>Case</td>
+      <td align="center">HYTE Y60 Dual Chamber Tempered Glass Mid-Tower</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>Cooler</td>
+      <td align="center">Noctua DH 15</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>macOS NVMe M.2 512GB</td>
+      <td align="center">INTEL SSDPEKNW512G8</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>Windows NVMe M.2 512GB</td>
+      <td align="center">KINGSTON OM3PDP3512B-A01</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>NVMe SSD 256GB</td>
+      <td align="center">INTEL SSDSCKKW256G8</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>SSD 1TB</td>
+      <td align="center">KINGSTON SA400S37960G</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>HDD 2TB</td>
+      <td align="center">ST2000LX001-1RG174</td>
       <td align="center">✅</td>
     </tr>
   </tbody>
