@@ -208,6 +208,8 @@ cd ~/Downloads/GenSMBIOS
 > [!NOTE]
 > For optimal results following any configuration edits, it is recommended to perform an NVRAM reset.  [^9]
 
+![Desktop Screenshot](Images/kext-config.png)
+
 ## Enabling Intel I225-V Ethernet
 
 **To enable the Intel I225-V Ethernet Controller and ensure compatibility with 3rd-party WiFi/LAN cards, follow this guide:**
