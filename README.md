@@ -5,7 +5,11 @@
   <p>Stay tuned for an exciting revelation that will transform your computing experience. Sonoma is on the horizon, and it's bringing innovation, power, and style like never before.</p>
   <p>Prepare to be amazed! 🔥 #SonomaIsComing</p>
 </div>
+<div align="center">
+<h1>🚀 Success Story: Sonoma with OpenCore 0.9.6 🚀</h1>
 
+<p>I'm thrilled to share that I've successfully set up Sonoma on my system using OpenCore 0.9.6! With meticulous configuration and the latest updates, my Hackintosh is now running smoothly with Sonoma's innovative features. It's a testament to the incredible Hackintosh community's dedication and support. Here's to pushing the boundaries of what's possible with macOS! 🎉 </p><p>#Hackintosh #SonomaSuccess"</p>
+</div>
 **macOS Sonoma:**
 ![Desktop Screenshot](Images/desktop-sonoma-blur.png)
 **macOS Ventura:**
@@ -207,6 +211,9 @@ cd ~/Downloads/GenSMBIOS
 
 > [!NOTE]
 > For optimal results following any configuration edits, it is recommended to perform an NVRAM reset.  [^9]
+
+> [!NOTE]
+> The following is my kext configuration order. It's essential to use kexts tailored to your hardware and macOS version. Keep them updated and maintain a backup of your working configuration to ensure system stability.
 
 ![Desktop Screenshot](Images/kext-config.png)
 
