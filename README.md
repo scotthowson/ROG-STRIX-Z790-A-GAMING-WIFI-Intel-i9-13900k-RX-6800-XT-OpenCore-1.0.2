@@ -270,30 +270,32 @@ cd ~/Downloads/GenSMBIOS
 
 ## BIOS
 
-**Disable:**
+**Bios Information:**
+  - Bios version: **1303**
+  - Updating this BIOS will simultaneously update the corresponding Intel ME to version 16.1.27.2176.
 
-- Fast Boot
-- Secure Boot
-- Serial/COM Port
-- Parallel Port
-- VT-d (can be enabled if you set DisableIoMapper to YES)
-- Compatibility Support Module (CSM)
-- Thunderbolt (For initial install, as Thunderbolt can cause issues if not set up correctly)
-- Intel SGX
-- Intel Platform Trust
-- CFG Lock (MSR 0xE2 write protection)
-  - This must be off. If you can't find the option, then ENABLE AppleXcpmCfgLock. Your hack will not boot with CFG-Lock enabled.
+**Disable:**
+  -  Boot > Boot > CSM (Compatibility Support Module) > Launch CSM > Disabled
+  -  Boot > Secure Boot > OS Type > Other OS
+  -  Boot > Secure Boot > Secure Boot Mode > Custom
+  -  Boot Configuration > Fast Boot > Disabled
 
 **Enable:**
-
-- VT-x
-- Above 4G decoding
-  - This must be on. If you can't find the option, then add npci=0x2000 to boot-args. Do not have both this option and npci on boot-args enabled at the same time. When enabling Above4G, Resizable BAR Support may become available on some motherboards. Please ensure this is DISABLED instead of set to Auto.
-- Hyper-Threading
-- Execute Disable Bit
-- EHCI/XHCI Hand-off
-- OS type: Windows 8.1/10 UEFI Mode
-- SATA Mode: AHCI
+  -  Advanced > Active Performance Cores > All
+  -  Advanced > Efficient Cores > All
+  -  Advanced > Hyper-Threading > Enabled
+  -  Advanced > System Agent (SA) Configuration > VT-D > Enabled
+  -  Advanced > System Agent (SA) Configuration > Memory Configuration > Memory Remap > Enabled
+  -  Advanced > System Agent (SA) Configuration > Graphics Configuration > Primary Display > PEG Slot
+  -  Advanced > System Agent (SA) Configuration > Graphics Configuration > iGPU Multi-Monitor > Disabled
+  -  Advanced > Trusted Computing > Security Device Support > Enabled
+  -  Advanced > PCI Subsystem Settings > Above 4G Decoding > Enabled
+  -  Advanced > PCI Subsystem Settings > Resize BAR Support > Enabled
+  -  Advanced > USB Configuration > Legacy USB Support > Enabled
+  -  Advanced > USB Configuration > XHCI Hand-off > Enabled
+  -  Advanced > Network Stack Configuration > Network Stack > Disabled
+  -  Ai Tweaker > Ai Overclock Tuner > XMP II
+  -  Ai Overclock > Auto
 
 ## Enabling FileVault on Your Hackintosh
 
