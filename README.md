@@ -15,6 +15,10 @@
 
 **macOS Sonoma:**
 ![Desktop Screenshot](Images/desktop-sonoma-blur.png)
+<div align="center">
+  <p>The dedication is unquestionably worth the unmatched experience!</p>
+  <p>🔥 Witnessing the elegance of Sonoma on my Hackintosh! 🔥</p>
+</div>
 
 **Screenshots**
 
@@ -22,6 +26,9 @@
 ![About This Mac Screenshot](Images/about-all-sonoma.png)
 **macOS Sonoma Benchmarks:**
 ![About This Mac Screenshot](Images/benchmark-sonoma.png)
+<div align="center">
+  <p>🚀 Sonoma brings a refined touch to my Hackintosh setup. 🚀</p>
+</div>
 
 **macOS Ventura:**
 ![Desktop Screenshot](Images/desktop-blur.png)
@@ -272,7 +279,7 @@ cd ~/Downloads/GenSMBIOS
 
 **Bios Information:**
   - Bios version: **1303**
-    - Updating this BIOS will simultaneously update the corresponding Intel ME to version 16.1.27.2176.
+    - Updating this BIOS will simultaneously update the corresponding **Intel ME to version 16.1.27.2176**.
 
 **Disable:**
   -  Boot > Boot > CSM (Compatibility Support Module) > Launch CSM > Disabled
