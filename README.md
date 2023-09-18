@@ -20,12 +20,17 @@
 <p>The dedication is unquestionably worth the unmatched experience!<br>🔥 Witnessing the elegance of Sonoma on my Hackintosh! 🔥</p>
 
 **Screenshots**
+
 **About This Mac**
 ![About This Mac Screenshot](Images/about-all-sonoma.png)
-**macOS Sonoma Benchmarks:**
+**macOS Sonoma Benchmarks**
 ![About This Mac Screenshot](Images/benchmark-sonoma.png)
   <p>🚀 Sonoma brings a refined touch to my Hackintosh setup. 🚀</p>
 </div>
+
+> [!IMPORTANT]
+> If you encounter any issues, kindly report them by opening an [issue here](https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/issues).
+
 
 **macOS Ventura:**
 ![Desktop Screenshot](Images/desktop-blur.png)
