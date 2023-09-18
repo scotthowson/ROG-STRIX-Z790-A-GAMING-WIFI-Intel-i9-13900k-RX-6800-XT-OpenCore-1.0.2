@@ -1,9 +1,7 @@
-
 <div style="position: absolute;" align="right">
 
 ![GitHub release (latest by SemVer including pre-releases)](https://img.shields.io/github/downloads-pre/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/latest/total?style=for-the-badge&logo=apple&label=Latest%20Build&color=brightgreen) ![GitHub release (latest by SemVer and asset)](https://img.shields.io/github/downloads/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/v1.0.2/0.9.6.zip?sort=semver&style=for-the-badge&logo=apple&label=Passing%20Build&color=brightgreen) ![GitHub issues](https://img.shields.io/github/issues/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4?style=for-the-badge) ![GitHub all releases](https://img.shields.io/github/downloads/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/total?style=for-the-badge&logo=apple&label=Total%20Downloads&labelColor=grey&color=brightgreen)
 </div>
-
 
 <div align="center">
   <h1>Sonoma is Here: Your Ultimate Hackintosh EFI & Guide 🚀</h1>
@@ -16,7 +14,6 @@
 
 <div align="center">
 <h1>🚀 Success Story: Sonoma with OpenCore 0.9.6 🚀</h1>
-
 <p>I'm thrilled to share that I've successfully set up Sonoma on my system using OpenCore 0.9.6! With meticulous configuration and the latest updates, my Hackintosh is now running smoothly with Sonoma's innovative features. It's a testament to the incredible Hackintosh community's dedication and support. Here's to pushing the boundaries of what's possible with macOS! 🎉 </p><p>🔥 #Hackintosh #SonomaSuccess 🔥</p>
 </div>
 
@@ -45,23 +42,6 @@
 
 **About This Mac:**
 ![About This Mac Screenshot](Images/About.png)
-
-**Geekbench 6 Results:**
-
-**CPU Scores:**
-  - **13th Gen Intel® Core i9-13900k**
-
-![CPU Score Screenshot](Images/geekbench6-score.png)
-
-**GPU Scores:**
-**ASRock AMD Radeon RX 6800 XT**
-  - Highest GPU Score: **223247**
-
-![GPU Score Screenshot](Images/geekbench-6-gpu-highestscore.png)
-
-  - Lowest GPU Score: **220645**
-
-![GPU Scores Screenshot](Images/geekbench-6-scores-gpu.png)
 
 > [!WARNING]
 > I hereby disclaim any responsibility and liability for any damages that may arise from the use of information provided within this repository.
