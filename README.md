@@ -24,6 +24,8 @@
 
 **macOS Sonoma:**
 ![About This Mac Screenshot](Images/about-all-sonoma.png)
+
+**macOS Sonoma Benchmarks:**
 ![About This Mac Screenshot](Images/benchmark-sonoma.png)
 
 **macOS Ventura:**
