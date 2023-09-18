@@ -1,4 +1,10 @@
-[![Github All Releases](https://img.shields.io/github/downloads/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/total.svg)]()
+
+<div style="position: absolute;" align="right">
+
+![Static Badge](https://img.shields.io/badge/Passing-Build?style=for-the-badge&logo=apple&label=Build) ![GitHub issues](https://img.shields.io/github/issues/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4?style=for-the-badge) ![GitHub all releases](https://img.shields.io/github/downloads/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/total?style=for-the-badge&logo=apple&label=Downloads&labelColor=grey&color=brightgreen)
+</div>
+
+
 <div align="center">
   <h1>Sonoma is Here: Your Ultimate Hackintosh EFI & Guide 🚀</h1>
   <p>Welcome to my Raptor Lake and 13th Gen Intel Hackintosh Repository!</p>
