@@ -78,7 +78,7 @@
     </tr>
     <tr>
       <td>Ethernet</td>
-      <td align="center">Intel® Ethernet Controller I225-V</td>
+      <td align="center">Intel® Ethernet Controller I226-V</td>
       <td align="center">✅</td>
     </tr>
     <tr>
@@ -260,6 +260,8 @@ cd ~/Downloads/GenSMBIOS
 - [**Enabling the Intel I225-V Ethernet Controller**](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225_stock_vs_cstmfw.md)
 
   - *Credits:* [5T33Z0](https://github.com/5T33Z0)
+
+![Screenshot](Images/appleigc.png)
 
 ## BIOS
 
