@@ -15,10 +15,8 @@
 
 **macOS Sonoma:**
 ![Desktop Screenshot](Images/desktop-sonoma-blur.png)
-**macOS Ventura:**
-![Desktop Screenshot](Images/desktop-blur.png)
 
-## Screenshots:
+**Screenshots**
 
 **About This Mac:**
 
@@ -28,6 +26,11 @@
 **macOS Sonoma Benchmarks:**
 ![About This Mac Screenshot](Images/benchmark-sonoma.png)
 
+**macOS Ventura:**
+![Desktop Screenshot](Images/desktop-blur.png)
+**Screenshots**
+
+**About This Mac:**
 **macOS Ventura:**
 ![About This Mac Screenshot](Images/About.png)
 
