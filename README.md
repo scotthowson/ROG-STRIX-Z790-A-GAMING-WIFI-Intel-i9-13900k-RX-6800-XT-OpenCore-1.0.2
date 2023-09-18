@@ -359,6 +359,9 @@ By following these steps, you enable the OpenCore Vault feature, adding an extra
 
   - *Credits:* [Dortania | Vault](https://dortania.github.io/OpenCore-Post-Install/universal/security/vault.html)
 
+> [!IMPORTANT]
+> Ensure that your 'config.plist' file is entirely in lowercase, as sign.command won't recognize the file otherwise.
+
 ## Hackintosh Checklist - What's Working?
 
 > [!NOTE]
