@@ -26,7 +26,7 @@
 ![Desktop Screenshot](Images/desktop-sonoma-blur.png)
 <p>The dedication is unquestionably worth the unmatched experience!<br>🔥 Witnessing the elegance of Sonoma on my Hackintosh! 🔥</p>
 
-**Screenshots**
+**📷 Screenshots**
 
 **About This Mac**
 ![About This Mac Screenshot](Images/about-all-sonoma.png)
@@ -66,7 +66,7 @@
 > [!WARNING]
 > I hereby disclaim any responsibility and liability for any damages that may arise from the use of information provided within this repository.
 
-## Specifications
+## Specifications 🛠️
 <div align="center" style="width: 100%">
 <table>
   <thead>
@@ -149,7 +149,7 @@
 > [!NOTE]
 > These specifications are tailored to my unique setup and may not be universally applicable. Your system may require adjustments and customization for optimal performance.
 
-**Key Considerations:**
+**Key Considerations 🤔**
 
 - **Processor Compatibility:** The Intel Core i9-13900K is a powerful CPU, and while OpenCore 0.9.4 provides a versatile platform for macOS, it's essential to ensure that all required kexts and configurations are up-to-date and compatible with this CPU model for optimal performance.
 
@@ -157,7 +157,7 @@
 
 - **macOS Ventura:** As macOS Ventura is a relatively new release, staying informed about updates and compatibility with your hardware is vital. OpenCore 0.9.4 may require adjustments and updates to accommodate the latest macOS version.
 
-**Best Practices:**
+**Best Practices 📝**
 
 - **Kext Management:** Keep an eye on kext updates and ensure you're using versions compatible with macOS Ventura, i9-13900K, and your ASUS motherboard. Always download kexts from reputable sources.
 
@@ -167,14 +167,14 @@
 
 - **Update OpenCore:** As new versions of OpenCore are released, consider updating to take advantage of improved features, bug fixes, and better compatibility with the latest macOS updates.
 
-**Conclusion:**
+**Conclusion 🎉**
 
 Utilizing OpenCore 0.9.4 with macOS Ventura on your i9-13900K and ASUS Z790-A Gaming WiFi D4 setup can deliver a high-performance Hackintosh experience. However, staying informed about hardware compatibility, keeping your kexts and configurations up-to-date, and seeking community support when needed are essential steps to ensure a stable and smooth-running system.
 
 > [!IMPORTANT]
 > <b>Remember that the Hackintosh community is a valuable resource, and with proper research and maintenance, you can enjoy the benefits of macOS Ventura on your unique hardware configuration.</b>
 
-## Hackintosh Community Resources
+## Hackintosh Community Resources 🌐
 
 - **[r/hackintosh (Reddit)](https://www.reddit.com/r/hackintosh/):** A popular subreddit dedicated to Hackintosh discussions, troubleshooting, and community support.
 
@@ -233,8 +233,7 @@ cd ~/Downloads/GenSMBIOS
 > - **Compliance with EULA:** Apple's End User License Agreement (EULA) prohibits the installation of macOS on non-Apple hardware. While Hackintoshing is a popular and widely used practice, using a unique serial number helps you stay within the bounds of legality.
 > Generating a new serial number with GenSMBIOS helps you maintain the functionality and stability of your Hackintosh while ensuring your compliance with Apple's EULA.
 
-
-## Kexts
+## Kexts 🧩
 
 > [!IMPORTANT]
 > Essential kexts crucial for your success.
@@ -284,7 +283,7 @@ cd ~/Downloads/GenSMBIOS
 
 ![Screenshot](Images/appleigc.png)
 
-## BIOS
+## BIOS Settings 📟
 
 **Bios Information:**
   - Bios version: **1303**
@@ -312,7 +311,7 @@ cd ~/Downloads/GenSMBIOS
   -  Ai Tweaker > Ai Overclock Tuner > XMP II
   -  Ai Overclock > Auto
 
-## Enabling FileVault on Your Hackintosh
+## Enabling FileVault on Your Hackintosh 🔐
 
 FileVault is a security feature in macOS that encrypts the contents of your disk, adding an extra layer of protection to your data. Enabling FileVault on your Hackintosh is possible, but it requires some additional considerations and configurations. Here's a step-by-step guide to help you set up FileVault:
 
@@ -347,7 +346,7 @@ The OpenCore Vault is a security feature designed to enhance the protection of y
 
 Think of the OpenCore Vault as a secure boot mechanism for OpenCore, ensuring that no unauthorized modifications can be made to your EFI configuration without your permission.
 
-### How Vaulting Works
+### How Vaulting Works🔐
 
 The specifics of vaulting involve the creation of a 256-byte RSA-2048 signature of the `vault.plist`. This signature is then incorporated into your `OpenCore.efi` bootloader. You can insert this key either into `OpenCoreVault.c` before compiling or use the `sign.command` tool if you already have `OpenCore.efi` compiled.
 
@@ -379,7 +378,7 @@ By following these steps, you enable the OpenCore Vault feature, adding an extra
 > [!IMPORTANT]
 > Ensure that your 'config.plist' file is entirely in lowercase, as sign.command won't recognize the file otherwise.
 
-## Hackintosh Checklist - What's Working?
+## Hackintosh Checklist ✅ - What's Working?
 
 > [!NOTE]
 > If anything doesn't work for you, report the issue [here](https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/issues).
@@ -484,7 +483,7 @@ By following these steps, you enable the OpenCore Vault feature, adding an extra
     - [x] iMessage, FaceTime, App Store, iTunes Store
     - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime, Netflix, and others)
 
-## Troubleshooting
+## Troubleshooting 🛠️
 
 Encountering issues with your Hackintosh setup? Don't worry; many users face challenges during the installation and configuration process. This Troubleshooting section aims to provide solutions to common problems. Before diving into the troubleshooting steps, please ensure that you have backed up your data and configurations.
 
@@ -577,7 +576,7 @@ If you encounter issues that aren't covered here or need personalized assistance
 
 This repository is intended for educational and experimental purposes only. Using macOS on non-Apple hardware, also known as Hackintosh, may violate Apple's End User License Agreement (EULA). The process involves potential risks, including but not limited to data loss or instability. By using the information and resources provided here, you agree that you are solely responsible for any consequences that may arise. Always ensure you have proper backups and proceed at your own risk.
 
-**Thank You:**
+**Special Thanks 🙌**
 
 I would like to express our gratitude to the Hackintosh community, contributors, and developers who have made this repository possible. Your dedication, support, and shared knowledge have been invaluable in creating a thriving ecosystem for macOS enthusiasts. Together, we continue to explore new horizons and push the boundaries of what's achievable with Hackintosh.
 
