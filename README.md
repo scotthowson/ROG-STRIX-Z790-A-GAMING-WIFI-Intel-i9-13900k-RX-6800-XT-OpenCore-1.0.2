@@ -562,19 +562,18 @@ Here are some common issues users face when setting up a Hackintosh and their po
   - Ensure that you're using compatible Bluetooth and Wi-Fi kexts for your hardware.
   - Verify that your hardware is supported by macOS.
 
-### Seeking Further Assistance
+### 💬 Get Help & Report Issues
 
 If you encounter issues that aren't covered here or need personalized assistance, consider reaching out to the Hackintosh community forums, Discord servers, or GitHub repositories mentioned in the ["Hackintosh Community Resources"](#Hackintosh-Community-Resources) section. Remember to provide detailed information about your hardware, configuration, and the specific issue you're facing for more accurate troubleshooting help.
 
 > [!WARNING]
 > Proceed with caution when applying fixes or modifications. Always back up your data and configurations before making changes to your EFI or system files.
 
-
 ---
 
-**Disclaimer:**
-
-This repository is intended for educational and experimental purposes only. Using macOS on non-Apple hardware, also known as Hackintosh, may violate Apple's End User License Agreement (EULA). The process involves potential risks, including but not limited to data loss or instability. By using the information and resources provided here, you agree that you are solely responsible for any consequences that may arise. Always ensure you have proper backups and proceed at your own risk.
+> [!WARNING]
+> **Important Disclaimer:** 🚧
+>This repository is intended for educational and experimental purposes only. Using macOS on non-Apple hardware, also known as Hackintosh, may violate Apple's End User License Agreement (EULA). The process involves potential risks, including but not limited to data loss or instability. By using the information and resources provided here, you agree that you are solely responsible for any consequences that may arise. Always ensure you have proper backups and proceed at your own risk.
 
 **Special Thanks 🙌**
 
