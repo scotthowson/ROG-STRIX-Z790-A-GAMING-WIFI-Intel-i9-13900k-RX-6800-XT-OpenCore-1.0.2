@@ -272,7 +272,7 @@ cd ~/Downloads/GenSMBIOS
 
 **Bios Information:**
   - Bios version: **1303**
-  - Updating this BIOS will simultaneously update the corresponding Intel ME to version 16.1.27.2176.
+    - Updating this BIOS will simultaneously update the corresponding Intel ME to version 16.1.27.2176.
 
 **Disable:**
   -  Boot > Boot > CSM (Compatibility Support Module) > Launch CSM > Disabled
@@ -286,14 +286,13 @@ cd ~/Downloads/GenSMBIOS
   -  Advanced > Hyper-Threading > Enabled
   -  Advanced > System Agent (SA) Configuration > VT-D > Enabled
   -  Advanced > System Agent (SA) Configuration > Memory Configuration > Memory Remap > Enabled
-  -  Advanced > System Agent (SA) Configuration > Graphics Configuration > Primary Display > PEG Slot
+  -  Advanced > System Agent (SA) Configuration > Graphics Configuration > Primary Display > PCIe
   -  Advanced > System Agent (SA) Configuration > Graphics Configuration > iGPU Multi-Monitor > Disabled
   -  Advanced > Trusted Computing > Security Device Support > Enabled
   -  Advanced > PCI Subsystem Settings > Above 4G Decoding > Enabled
   -  Advanced > PCI Subsystem Settings > Resize BAR Support > Enabled
   -  Advanced > USB Configuration > Legacy USB Support > Enabled
   -  Advanced > USB Configuration > XHCI Hand-off > Enabled
-  -  Advanced > Network Stack Configuration > Network Stack > Disabled
   -  Ai Tweaker > Ai Overclock Tuner > XMP II
   -  Ai Overclock > Auto
 
