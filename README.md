@@ -572,7 +572,7 @@ If you encounter issues that aren't covered here or need personalized assistance
 ---
 
 > [!WARNING]
-> **Important Disclaimer:** 🚧
+> **Important Disclaimer:** 🚧<br>
 >This repository is intended for educational and experimental purposes only. Using macOS on non-Apple hardware, also known as Hackintosh, may violate Apple's End User License Agreement (EULA). The process involves potential risks, including but not limited to data loss or instability. By using the information and resources provided here, you agree that you are solely responsible for any consequences that may arise. Always ensure you have proper backups and proceed at your own risk.
 
 **Special Thanks 🙌**
