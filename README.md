@@ -1,7 +1,7 @@
 
 <div style="position: absolute;" align="right">
 
-![GitHub release (latest by SemVer and asset)](https://img.shields.io/github/downloads/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/v1.0.3/OpenCore-0.9.6.zip?sort=semver&style=for-the-badge&logo=apple&label=Build&color=brightgreen) ![GitHub issues](https://img.shields.io/github/issues/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4?style=for-the-badge) ![GitHub all releases](https://img.shields.io/github/downloads/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/total?style=for-the-badge&logo=apple&label=Downloads&labelColor=grey&color=brightgreen)
+![GitHub release (latest by SemVer and asset)](https://img.shields.io/github/downloads/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/v1.0.2/0.9.6.zip?sort=semver&style=for-the-badge&logo=apple&label=Build&color=brightgreen) ![GitHub issues](https://img.shields.io/github/issues/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4?style=for-the-badge) ![GitHub all releases](https://img.shields.io/github/downloads/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/total?style=for-the-badge&logo=apple&label=Downloads&labelColor=grey&color=brightgreen)
 </div>
 
 
