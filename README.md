@@ -24,6 +24,10 @@
 
 **macOS Sonoma:**
 ![About This Mac Screenshot](Images/about-all-sonoma.png)
+![About This Mac Screenshot](Images/Neofetch.png)
+![About This Mac Screenshot](Images/Wallpapers.png)
+![About This Mac Screenshot](Images/benchmark-sonoma.png)
+
 **macOS Ventura:**
 ![About This Mac Screenshot](Images/About.png)
 
