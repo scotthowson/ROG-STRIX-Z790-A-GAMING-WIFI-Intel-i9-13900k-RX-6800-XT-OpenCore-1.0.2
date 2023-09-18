@@ -39,7 +39,11 @@
 **GPU Scores:**
 - **ASRock AMD Radeon RX 6800 XT**
   - Highest GPU Score: **223247**
+
 ![GPU Score Screenshot](Images/geekbench-6-gpu-highestscore.png)
+
+  - Lowest GPU Score: **220645**
+
 ![GPU Scores Screenshot](Images/geekbench-6-scores-gpu.png)
 
 > [!WARNING]
