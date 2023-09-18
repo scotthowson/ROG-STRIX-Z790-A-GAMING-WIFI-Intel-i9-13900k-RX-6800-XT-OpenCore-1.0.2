@@ -12,22 +12,18 @@
 
 <p>I'm thrilled to share that I've successfully set up Sonoma on my system using OpenCore 0.9.6! With meticulous configuration and the latest updates, my Hackintosh is now running smoothly with Sonoma's innovative features. It's a testament to the incredible Hackintosh community's dedication and support. Here's to pushing the boundaries of what's possible with macOS! 🎉 </p><p>🔥 #Hackintosh #SonomaSuccess 🔥</p>
 </div>
+
 <div align="center">
 
-**macOS Sonoma:**
+**macOS Sonoma**
 ![Desktop Screenshot](Images/desktop-sonoma-blur.png)
-
-  <p>The dedication is unquestionably worth the unmatched experience!<br>
-  🔥 Witnessing the elegance of Sonoma on my Hackintosh! 🔥</p>
-</div>
+<p>The dedication is unquestionably worth the unmatched experience!<br>🔥 Witnessing the elegance of Sonoma on my Hackintosh! 🔥</p>
 
 **Screenshots**
-
-**About This Mac:**
+**About This Mac**
 ![About This Mac Screenshot](Images/about-all-sonoma.png)
 **macOS Sonoma Benchmarks:**
 ![About This Mac Screenshot](Images/benchmark-sonoma.png)
-<div align="center">
   <p>🚀 Sonoma brings a refined touch to my Hackintosh setup. 🚀</p>
 </div>
 
