@@ -33,7 +33,8 @@
 **Geekbench 6 Results:**
 
 **CPU Scores:**
-- **13th Gen Intel® Core i9-13900k**
+  - **13th Gen Intel® Core i9-13900k**
+
 ![CPU Score Screenshot](Images/geekbench6-score.png)
 
 **GPU Scores:**
