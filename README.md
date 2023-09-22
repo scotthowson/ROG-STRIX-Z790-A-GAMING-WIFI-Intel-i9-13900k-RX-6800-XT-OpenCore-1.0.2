@@ -100,7 +100,7 @@
       <td align="center">✅</td>
     </tr>
     <tr>
-      <td colspan="3">Storage Devices</td>
+      <td colspan="3"><strong>Storage Devices</strong></td>
     </tr>
     <tr>
       <td>macOS Bootable NVMe M.2 2TB</td>
