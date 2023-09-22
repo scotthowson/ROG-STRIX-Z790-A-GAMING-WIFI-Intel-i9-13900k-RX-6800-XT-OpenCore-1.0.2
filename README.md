@@ -104,7 +104,7 @@
     </tr>
     <tr>
       <td>macOS Bootable NVMe M.2 2TB</td>
-      <td align="center">WD_BLACK SN770 2TB</td>
+      <td align="center" colspan="2">WD_BLACK SN770 2TB</td>
     </tr>
     <tr>
       <td>macOS NVMe M.2 1TB</td>
