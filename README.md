@@ -101,7 +101,7 @@
     </tr>
   <thead>
     <tr>
-      <th align="center">Storage Devices</th>
+      <th rowspan="3" align="center">Storage Devices</th>
     </tr>
   </thead>
     <tr>
