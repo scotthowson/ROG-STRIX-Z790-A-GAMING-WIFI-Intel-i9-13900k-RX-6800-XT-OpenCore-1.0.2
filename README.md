@@ -99,29 +99,44 @@
       <td align="center">Noctua DH 15</td>
       <td align="center">✅</td>
     </tr>
+  <thead>
     <tr>
-      <td>macOS NVMe M.2 512GB</td>
+      <th align="center">Storage Devices</th>
+    </tr>
+  </thead>
+    <tr>
+      <td>macOS Bootable NVMe M.2 2TB</td>
+      <td align="center">WD_BLACK SN770 2TB</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>macOS NVMe M.2 1TB</td>
+      <td align="center">WD Blue SN570 1TB</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>Windows Bootable NVMe M.2 512GB</td>
       <td align="center">INTEL SSDPEKNW512G8</td>
       <td align="center">✅</td>
     </tr>
     <tr>
-      <td>Windows NVMe M.2 512GB</td>
-      <td align="center">KINGSTON OM3PDP3512B-A01</td>
+      <td>Windows NVMe M.2 1TB</td>
+      <td align="center">WD Blue SN570 1TB</td>
       <td align="center">✅</td>
     </tr>
     <tr>
-      <td>NVMe SSD 256GB</td>
-      <td align="center">INTEL SSDSCKKW256G8</td>
-      <td align="center">✅</td>
-    </tr>
-    <tr>
-      <td>SSD 1TB</td>
+      <td>Kingston 960GB SSD</td>
       <td align="center">KINGSTON SA400S37960G</td>
       <td align="center">✅</td>
     </tr>
     <tr>
-      <td>HDD 2TB</td>
+      <td>Seagate 2TB HDD</td>
       <td align="center">ST2000LX001-1RG174</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td>Seagate 1TB HDD</td>
+      <td align="center">ST1000DM003-1CH162</td>
       <td align="center">✅</td>
     </tr>
   </tbody>
