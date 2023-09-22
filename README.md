@@ -99,11 +99,9 @@
       <td align="center">Noctua DH 15</td>
       <td align="center">✅</td>
     </tr>
-  <thead>
     <tr>
-      <th rowspan="3" align="center">Storage Devices</th>
+      <td colspan="3">Storage Devices</td>
     </tr>
-  </thead>
     <tr>
       <td>macOS Bootable NVMe M.2 2TB</td>
       <td align="center">WD_BLACK SN770 2TB</td>
