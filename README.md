@@ -6,6 +6,10 @@
 </div>
 
 <div align="center">
+🚀 **UPDATE INBOUND:** Stay ahead of the curve with our commitment to continuous improvement. We're constantly refining our guide to ensure compatibility and optimization with the latest macOS Sonoma updates and OpenCore releases. Keep an eye out for upcoming updates as we strive to provide you with the most seamless and efficient experience possible. Stay tuned!
+</div>
+
+<div align="center">
   <h1>Sonoma is Here: Your Ultimate Hackintosh EFI & Guide 🚀</h1>
   <p>Welcome to my Raptor Lake and 13th Gen Intel Hackintosh Repository!</p>
   <p>Whether you're a seasoned Hackintosh enthusiast or a curious newcomer, this repository offers a meticulously curated guide, drivers, and tools, all rigorously tested and fine-tuned for seamless compatibility, stability, and peak performance. Trust me as your go-to source for maximizing your Raptor Lake-based Hackintosh system's potential!</p>
