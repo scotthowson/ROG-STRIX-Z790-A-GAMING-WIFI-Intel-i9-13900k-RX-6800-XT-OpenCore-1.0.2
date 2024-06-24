@@ -567,6 +567,106 @@ If you encounter issues that aren't covered here or need personalized assistance
 > **Important Disclaimer:** 🚧<br>
 >This repository is intended for educational and experimental purposes only. Using macOS on non-Apple hardware, also known as Hackintosh, may violate Apple's End User License Agreement (EULA). The process involves potential risks, including but not limited to data loss or instability. By using the information and resources provided here, you agree that you are solely responsible for any consequences that may arise. Always ensure you have proper backups and proceed at your own risk.
 
+
+# USB Preparation for OpenCore Installation
+
+This guide outlines the steps to prepare a USB drive for OpenCore installation using the terminal.
+
+## Method 2 (In case Method 1 didn't work)
+
+### Steps:
+
+1. **Determine USB Device Block:**
+    ```bash
+    lsblk
+    ```
+    Identify your USB device block from the output.
+
+2. **Run `gdisk` on the USB Block:**
+    ```bash
+    sudo gdisk /dev/<your USB block>
+    ```
+    - If prompted for a partition table, select GPT.
+    - Use `p` to print the block's partitions and verify the correct device.
+    - Use `o` to clear the partition table and create a new GPT table (confirm with `y`).
+
+3. **Create Partitions:**
+    - Create the first partition:
+        ```bash
+        n
+        ```
+        - Partition number: Keep blank for default
+        - First sector: Keep blank for default
+        - Last sector: `+200M` (to create a 200MB partition)
+        - Hex code or GUID: `0700` (Microsoft basic data partition type)
+
+    - Create the second partition:
+        ```bash
+        n
+        ```
+        - Partition number: Keep blank for default
+        - First sector: Keep blank for default
+        - Last sector: Keep blank for default (or `+3G` to partition the rest of the USB)
+        - Hex code or GUID: `af00` (Apple HFS/HFS+ partition type)
+
+4. **Write Changes and Quit:**
+    ```bash
+    w
+    ```
+    Confirm with `y`.
+
+5. **Optional: Reboot or Re-plug USB:**
+    In some cases, a reboot might be needed, but rarely. Re-plugging the USB key can also suffice.
+
+6. **Determine Partition Blocks:**
+    ```bash
+    lsblk
+    ```
+    Identify the 200MB drive and the other partition.
+
+7. **Format the 200MB Partition to FAT32:**
+    ```bash
+    sudo mkfs.vfat -F 32 -n "OPENCORE" /dev/<your 200MB partition block>
+    ```
+
+8. **Prepare macOS Recovery Files:**
+    - Change directory to macrecovery utilities:
+        ```bash
+        cd /OpenCore/Utilities/macrecovery/
+        ```
+    - Mount the USB partition:
+        ```bash
+        udisksctl mount -b /dev/<your 200MB partition block> # No sudo required in most cases
+        # or
+        sudo mount /dev/<your 200MB partition block> /where/your/mount/stuff # sudo required
+        ```
+    - Create necessary directories on USB:
+        ```bash
+        cd /path/to/your/mounted/USB
+        mkdir com.apple.recovery.boot
+        ```
+
+9. **Download and Use `dmg2img`:**
+    - Install `dmg2img` (available on most distros):
+        ```bash
+        sudo apt-get install dmg2img # For Debian-based distros
+        sudo yum install dmg2img # For RHEL-based distros
+        ```
+    - Determine partition with disk image property:
+        ```bash
+        dmg2img -l BaseSystem.dmg
+        ```
+    - Extract and write recovery image:
+        ```bash
+        sudo dmg2img -p <the partition number> BaseSystem.dmg /dev/<your 3GB+ partition block>
+        ```
+
+### Notes:
+- The extraction process can take several minutes, especially on slower USB drives.
+- Ensure to replace placeholders (`<your USB block>`, `<your 200MB partition block>`, etc.) with actual values from your setup.
+
+Follow these steps carefully to prepare your USB drive for OpenCore installation.
+
 **Special Thanks 🙌**
 
 I would like to express our gratitude to the Hackintosh community, contributors, and developers who have made this repository possible. Your dedication, support, and shared knowledge have been invaluable in creating a thriving ecosystem for macOS enthusiasts. Together, we continue to explore new horizons and push the boundaries of what's achievable with Hackintosh.
