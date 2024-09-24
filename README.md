@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-🚀 **UPDATE INBOUND:** Stay ahead of the curve with our commitment to continuous improvement. We're constantly refining our guide to ensure compatibility and optimization with the latest macOS Sequoia updates and OpenCore releases. Keep an eye out for updates within the next 2 days as we strive to provide you with the most seamless and efficient experience possible. Stay tuned!
+🚀 Stay ahead of the curve with our commitment to continuous improvement. We're constantly refining our guide to ensure compatibility and optimization with the latest macOS Sequoia updates and OpenCore releases. Keep an eye out for updates within the next 2 days as we strive to provide you with the most seamless and efficient experience possible. Stay tuned!
 </div>
 
 <div align="center">
@@ -19,7 +19,7 @@
 </div>
 
 <div align="center">
-<h1>🚀 Success Story: Sequoia with OpenCore 1.0.1 🚀</h1>
+<h1>🚀 Success Story: Sequoia with OpenCore 1.0.2 🚀</h1>
 <p>I'm thrilled to share that I've successfully set up Sequoia on my system using OpenCore 1.0.1! With meticulous configuration and the latest updates, my Hackintosh is now running smoothly with Sequoia's innovative features. It's a testament to the incredible Hackintosh community's dedication and support. Here's to pushing the boundaries of what's possible with macOS! 🎉 </p><p>🔥 #Hackintosh #SequoiaSuccess 🔥</p>
 </div>
 
