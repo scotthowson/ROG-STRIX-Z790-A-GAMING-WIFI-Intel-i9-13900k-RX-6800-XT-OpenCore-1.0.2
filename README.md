@@ -1,8 +1,20 @@
-<div style="position: absolute;" align="right">
-
-[![Latest Build](https://img.shields.io/github/downloads/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/v1.0.5/OpenCore-1.0.2.zip?sort=semver&style=for-the-badge&logo=apple&label=Latest%20Build&color=brightgreen)](https://github.com/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/releases/latest)
-[![GitHub Issues](https://img.shields.io/github/issues/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4?style=for-the-badge)](https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/issues)
-[![Total Downloads](https://img.shields.io/github/downloads/illsaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/total?style=for-the-badge&logo=apple&label=Total%20Downloads&labelColor=grey&color=brightgreen)](https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/releases/)
+<div align="center" style="margin: 20px 0;">
+  <!-- Latest Build -->
+  <a href="https://github.com/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/releases/latest">
+    <img src="https://img.shields.io/github/downloads/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/v1.0.5/OpenCore-1.0.2.zip?style=for-the-badge&logo=apple&label=Latest%20Build&color=brightgreen" alt="Latest Build" />
+  </a>
+  <!-- GitHub Issues -->
+  <a href="https://github.com/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/issues">
+    <img src="https://img.shields.io/github/issues/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2?style=for-the-badge&logo=github&color=orange" alt="GitHub Issues" />
+  </a>
+  <!-- Total Downloads -->
+  <a href="https://github.com/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/releases">
+    <img src="https://img.shields.io/github/downloads/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/total?style=for-the-badge&logo=apple&label=Total%20Downloads&labelColor=grey&color=brightgreen" alt="Total Downloads" />
+  </a>
+  <!-- Stars -->
+  <a href="https://github.com/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/stargazers">
+    <img src="https://img.shields.io/github/stars/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars" />
+  </a>
 </div>
 
 <div align="center">
