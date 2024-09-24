@@ -39,31 +39,37 @@
   <p>🚀 Sequoia brings a refined touch to my Hackintosh setup. 🚀</p>
 </div>
 
-<div align="center">
+<details>
+  <summary><strong>Working: macOS Sonoma</strong></summary>
+  <div align="center">
 
 **macOS Sonoma**
 ![Desktop Screenshot](Images/desktop-sonoma-blur.png)
 <p>The dedication is unquestionably worth the unmatched experience!<br>🔥 Witnessing the elegance of Sonoma on my Hackintosh! 🔥</p>
 
 **📷 Screenshots**
-
 **About This Mac**
 ![About This Mac Screenshot](Images/about-all-sonoma.png)
 **macOS Sonoma Benchmarks**
 ![About This Mac Screenshot](Images/benchmark-sonoma.png)
   <p>🚀 Sonoma brings a refined touch to my Hackintosh setup. 🚀</p>
 </div>
+</details>
 
-> [!IMPORTANT]
-> If you encounter any issues, kindly report them by opening an [issue here](https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/issues).
-
+<details>
+  <summary><strong>Working: macOS Ventura</strong></summary>
+  <div align="center">
 
 **macOS Ventura:**
 ![Desktop Screenshot](Images/desktop-blur.png)
 **Screenshots**
-
 **About This Mac:**
 ![About This Mac Screenshot](Images/About.png)
+</div>
+</details>
+
+> [!IMPORTANT]
+> If you encounter any issues, kindly report them by opening an [issue here](https://github.com/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/issues).
 
 > [!WARNING]
 > I hereby disclaim any responsibility and liability for any damages that may arise from the use of information provided within this repository.
