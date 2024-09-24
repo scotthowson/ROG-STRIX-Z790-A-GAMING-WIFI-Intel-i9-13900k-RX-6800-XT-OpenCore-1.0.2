@@ -25,6 +25,21 @@
 
 <div align="center">
 
+**macOS Sequoia**
+![Desktop Screenshot](Images/SequoiaDesktop.png)
+<p>The dedication is unquestionably worth the unmatched experience!<br>🔥 Witnessing the elegance of Sequoia on my Hackintosh! 🔥</p>
+
+**📷 Screenshots**
+
+**About This Mac**
+![About This Mac Screenshot](Images/sequoia-aboutthismac.png)
+**macOS Sequoia Benchmarks**
+![Sequoia Benchmarks Screenshot](Images/sequoia-benchmarks.png)
+  <p>🚀 Sequoia brings a refined touch to my Hackintosh setup. 🚀</p>
+</div>
+
+<div align="center">
+
 **macOS Sonoma**
 ![Desktop Screenshot](Images/desktop-sonoma-blur.png)
 <p>The dedication is unquestionably worth the unmatched experience!<br>🔥 Witnessing the elegance of Sonoma on my Hackintosh! 🔥</p>
