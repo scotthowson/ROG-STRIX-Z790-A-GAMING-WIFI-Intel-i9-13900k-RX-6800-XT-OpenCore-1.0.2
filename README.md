@@ -180,27 +180,33 @@
 > [!NOTE]  
 > These specifications are specific to my setup and may require customization for your system to perform optimally.
 
-**Key Considerations 🤔**
+<details>
+  <summary><strong>Key Considerations 🤔</strong></summary>
 
-- **Processor Compatibility:** The Intel Core i9-13900K is a powerful CPU, and with OpenCore 1.0.2, it’s crucial to ensure that all required kexts and configurations are up-to-date and fully compatible with this processor for optimal macOS Sequoia performance.
+  - **Processor Compatibility:** The Intel Core i9-13900K is a powerful CPU, and with OpenCore 1.0.2, it’s crucial to ensure that all required kexts and configurations are up-to-date and fully compatible with this processor for optimal macOS Sequoia performance.
 
-- **ASUS Z790-A Gaming WiFi D4:** This motherboard is a solid choice for Hackintosh builds, but it’s essential to verify that the correct kexts and configurations are applied to guarantee stability and full functionality with macOS Sequoia.
+  - **ASUS Z790-A Gaming WiFi D4:** This motherboard is a solid choice for Hackintosh builds, but it’s essential to verify that the correct kexts and configurations are applied to guarantee stability and full functionality with macOS Sequoia.
 
-- **macOS Sequoia:** As Sequoia is the latest macOS release, staying on top of compatibility updates for your hardware is key. OpenCore 1.0.2 provides enhanced support, but some adjustments or updates may still be required to ensure a smooth experience.
+  - **macOS Sequoia:** As Sequoia is the latest macOS release, staying on top of compatibility updates for your hardware is key. OpenCore 1.0.2 provides enhanced support, but some adjustments or updates may still be required to ensure a smooth experience.
+</details>
 
-**Best Practices 📝**
+<details>
+  <summary><strong>Best Practices 📝</strong></summary>
 
-- **Kext Management:** Regularly check for updates to your kexts and confirm compatibility with macOS Sequoia, the i9-13900K, and the ASUS Z790-A motherboard. Always download kexts from trusted sources.
+  - **Kext Management:** Regularly check for updates to your kexts and confirm compatibility with macOS Sequoia, the i9-13900K, and the ASUS Z790-A motherboard. Always download kexts from trusted sources.
 
-- **Configuration Backups:** Back up your OpenCore configuration frequently. This ensures you can quickly restore a stable state if anything goes wrong during updates or tweaks.
+  - **Configuration Backups:** Back up your OpenCore configuration frequently. This ensures you can quickly restore a stable state if anything goes wrong during updates or tweaks.
 
-- **Community Involvement:** Use Hackintosh forums and communities to stay informed about compatibility, troubleshooting, and tips for running macOS Sequoia on your hardware. The collective knowledge can be invaluable.
+  - **Community Involvement:** Use Hackintosh forums and communities to stay informed about compatibility, troubleshooting, and tips for running macOS Sequoia on your hardware. The collective knowledge can be invaluable.
 
-- **Keep OpenCore Updated:** OpenCore 1.0.2 is highly optimized, but as new updates roll out, upgrading can bring performance improvements, bug fixes, and better compatibility with macOS Sequoia and future updates.
+  - **Keep OpenCore Updated:** OpenCore 1.0.2 is highly optimized, but as new updates roll out, upgrading can bring performance improvements, bug fixes, and better compatibility with macOS Sequoia and future updates.
+</details>
 
-**Conclusion 🎉**
+<details>
+  <summary><strong>Conclusion 🎉</strong></summary>
 
-Using OpenCore 1.0.2 with macOS Sequoia on your Intel i9-13900K and ASUS Z790-A Gaming WiFi D4 motherboard offers a high-performance Hackintosh experience. Staying informed about hardware compatibility, keeping your kexts updated, and engaging with the Hackintosh community are crucial steps to ensure a stable and efficient system.
+  Using OpenCore 1.0.2 with macOS Sequoia on your Intel i9-13900K and ASUS Z790-A Gaming WiFi D4 motherboard offers a high-performance Hackintosh experience. Staying informed about hardware compatibility, keeping your kexts updated, and engaging with the Hackintosh community are crucial steps to ensure a stable and efficient system.
+</details>
 
 > [!IMPORTANT]  
 > **Take advantage of the Hackintosh community. With regular maintenance and proper configurations, you can enjoy the full potential of macOS Sequoia on your unique hardware setup.**
@@ -226,7 +232,8 @@ Using OpenCore 1.0.2 with macOS Sequoia on your Intel i9-13900K and ASUS Z790-A 
 > [!WARNING]
 > Generate an SMBIOS: Ensure you generate a new SMBIOS to maintain system stability and compliance.
 
-## Regenerating a New Serial with GenSMBIOS
+<details>
+  <summary><strong>Generating a GenSMBIOS 🎉</strong></summary>
 
 If you need to regenerate a new serial number for your Hackintosh, you can use the GenSMBIOS tool. This is useful when you encounter issues related to duplicate serial numbers or want to ensure your system remains unique. Follow these steps:
 
@@ -263,6 +270,7 @@ cd ~/Downloads/GenSMBIOS
 > - **Ensure Stability:** A new, unique serial number can contribute to the stability of your Hackintosh system. It reduces the chances of Apple's servers detecting irregularities and flagging your system.
 > - **Compliance with EULA:** Apple's End User License Agreement (EULA) prohibits the installation of macOS on non-Apple hardware. While Hackintoshing is a popular and widely used practice, using a unique serial number helps you stay within the bounds of legality.
 > Generating a new serial number with GenSMBIOS helps you maintain the functionality and stability of your Hackintosh while ensuring your compliance with Apple's EULA.
+</details>
 
 ## Kexts 🧩
 
