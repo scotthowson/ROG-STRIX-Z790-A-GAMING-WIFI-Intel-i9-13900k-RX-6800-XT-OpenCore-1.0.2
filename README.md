@@ -24,6 +24,8 @@
 <p>I'm thrilled to share that I've successfully set up Sequoia on my system using OpenCore 1.0.1! With meticulous configuration and the latest updates, my Hackintosh is now running smoothly with Sequoia's innovative features. It's a testament to the incredible Hackintosh community's dedication and support. Here's to pushing the boundaries of what's possible with macOS! 🎉 </p><p>🔥 #Hackintosh #SequoiaSuccess 🔥</p>
 </div>
 
+<details>
+  <summary><strong>Current: macOS Sonoma</strong></summary>
 <div align="center">
 
 **macOS Sequoia**
@@ -38,6 +40,7 @@
 ![Sequoia Benchmarks Screenshot](Images/sequoia-benchmarks.png)
   <p>🚀 Sequoia brings a refined touch to my Hackintosh setup. 🚀</p>
 </div>
+</details>
 
 <details>
   <summary><strong>Working: macOS Sonoma</strong></summary>
