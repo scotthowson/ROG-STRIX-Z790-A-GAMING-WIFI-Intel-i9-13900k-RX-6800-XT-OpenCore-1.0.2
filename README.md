@@ -25,7 +25,7 @@
 </div>
 
 <details>
-  <summary><strong>Current: macOS Sonoma</strong></summary>
+  <summary><strong>macOS 15 Sequoia</strong></summary>
 <div align="center">
 
 **macOS Sequoia**
@@ -105,7 +105,7 @@
     </tr>
     <tr>
       <td>RAM</td>
-      <td align="center">64GB Corsair Vengeance RGB Pro 32GB (4 x 16GB)</td>
+      <td align="center">64GB Corsair Vengeance RGB Pro 32GB (2 x 32GB)</td>
       <td align="center">✅</td>
     </tr>
     <tr>
@@ -125,7 +125,7 @@
     </tr>
     <tr>
       <td>Cooler</td>
-      <td align="center">Noctua DH 15</td>
+      <td align="center">NZXT Kraken Elite 360mm AIO CPU Liquid Cooler</td>
       <td align="center">✅</td>
     </tr>
     <tr>
