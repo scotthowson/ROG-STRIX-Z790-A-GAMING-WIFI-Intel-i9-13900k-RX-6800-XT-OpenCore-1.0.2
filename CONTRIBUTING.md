@@ -24,4 +24,3 @@ To contribute code, follow these steps:
    Clone your forked repository to your local machine:
    ```bash
    git clone https://github.com/YOUR_USERNAME/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2.git
-  ```
