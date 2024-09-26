@@ -7,75 +7,88 @@
 </div>
 
 <div align="center">
-🚀 Stay ahead of the curve with our commitment to continuous improvement. We're constantly refining our guide to ensure compatibility and optimization with the latest macOS Sequoia updates and OpenCore releases. Keep an eye out for updates within the next 2 days as we strive to provide you with the most seamless and efficient experience possible. Stay tuned!
+  🚀 We're committed to ongoing improvements. With two updates already released, our guide is always evolving to ensure seamless compatibility with the latest macOS Sequoia and OpenCore versions. Stay tuned for even more refinements!
 </div>
 
 <div align="center">
-  <h1>Sequoia is Here: Your Ultimate Hackintosh EFI & Guide 🚀</h1>
+  <h1>Sequoia is Here: Your Hackintosh EFI & Guide 🚀</h1>
   <p>Welcome to my Raptor Lake and 13th Gen Intel Hackintosh Repository!</p>
-  <p>Whether you're a seasoned Hackintosh enthusiast or a curious newcomer, this repository offers a meticulously curated guide, drivers, and tools, all rigorously tested and fine-tuned for seamless compatibility, stability, and peak performance. Trust me as your go-to source for maximizing your Raptor Lake-based Hackintosh system's potential!</p>
-  <p>Sequoia has arrived, and it's about to revolutionize your computing experience with innovation, power, and style like never before.</p>
-  <p>Get ready to be amazed! </p>
+  <p>Whether you're a veteran or a newcomer, this guide provides carefully tested drivers and tools for optimal compatibility, stability, and performance. Count on this resource to help you maximize your Raptor Lake Hackintosh setup.</p>
+  <p>Sequoia is all about innovation and performance. Get ready to experience the future of computing!</p>
   <p>🔥 #SequoiaIsHere 🔥</p>
 </div>
 
 <div align="center">
-<h1>🚀 Success Story: Sequoia with OpenCore 1.0.2 🚀</h1>
-<p>I'm thrilled to share that I've successfully set up Sequoia on my system using OpenCore 1.0.1! With meticulous configuration and the latest updates, my Hackintosh is now running smoothly with Sequoia's innovative features. It's a testament to the incredible Hackintosh community's dedication and support. Here's to pushing the boundaries of what's possible with macOS! 🎉 </p><p>🔥 #Hackintosh #SequoiaSuccess 🔥</p>
+  <h1>🚀 Sequoia with OpenCore 1.0.2: Latest Updates 🚀</h1>
+  <p>Sequoia is running flawlessly on my system with OpenCore 1.0.2. After two updates, the performance has reached new heights. Thanks to the Hackintosh community for their support! 🎉</p>
+  <p>🔥 #Hackintosh #SequoiaSuccess 🔥</p>
 </div>
 
 <details>
   <summary><strong>macOS 15 Sequoia</strong></summary>
-<div align="center">
+  <div align="center">
 
 **macOS Sequoia**
 ![Desktop Screenshot](Images/SequoiaDesktop.png)
-<p>The dedication is unquestionably worth the unmatched experience!<br>🔥 Witnessing the elegance of Sequoia on my Hackintosh! 🔥</p>
+<p>🔥 Sequoia delivers an unmatched Hackintosh experience! The dedication is well worth the result. 🔥</p>
 
 **📷 Screenshots**
 
-**About This Mac**
+**About This Mac:**
 ![About This Mac Screenshot](Images/sequoia-aboutthismac.png)
-**macOS Sequoia Benchmarks**
+
+**macOS Sequoia Benchmarks:**
 ![Sequoia Benchmarks Screenshot](Images/sequoia-benchmarks.png)
-  <p>🚀 Sequoia brings a refined touch to my Hackintosh setup. 🚀</p>
-</div>
+
+<p>🚀 Sequoia brings a refined touch to my Hackintosh setup. 🚀</p>
+  </div>
 </details>
 
 <details>
-  <summary><strong>Working: macOS Sonoma</strong></summary>
+  <summary><strong>macOS 14 Sonoma</strong></summary>
   <div align="center">
 
 **macOS Sonoma**
 ![Desktop Screenshot](Images/desktop-sonoma-blur.png)
-<p>The dedication is unquestionably worth the unmatched experience!<br>🔥 Witnessing the elegance of Sonoma on my Hackintosh! 🔥</p>
+<p>🔥 Sonoma continues to offer an elegant Hackintosh experience! Well worth the effort. 🔥</p>
 
 **📷 Screenshots**
-**About This Mac**
+
+**About This Mac:**
 ![About This Mac Screenshot](Images/about-all-sonoma.png)
-**macOS Sonoma Benchmarks**
-![About This Mac Screenshot](Images/benchmark-sonoma.png)
-  <p>🚀 Sonoma brings a refined touch to my Hackintosh setup. 🚀</p>
-</div>
+
+**macOS Sonoma Benchmarks:**
+![Sonoma Benchmarks Screenshot](Images/benchmark-sonoma.png)
+
+<p>🚀 Sonoma enhances my Hackintosh with a polished user experience. 🚀</p>
+  </div>
 </details>
 
 <details>
-  <summary><strong>Working: macOS Ventura</strong></summary>
+  <summary><strong>macOS 13 Ventura</strong></summary>
   <div align="center">
 
-**macOS Ventura:**
+**macOS Ventura**
 ![Desktop Screenshot](Images/desktop-blur.png)
-**Screenshots**
+<p>🔥 Ventura powers my Hackintosh with smooth performance and stability. 🔥</p>
+
+**📷 Screenshots**
+
 **About This Mac:**
 ![About This Mac Screenshot](Images/About.png)
-</div>
+
+<p>🚀 Ventura continues to bring excellent performance to my Hackintosh setup. 🚀</p>
+  </div>
 </details>
 
-> [!IMPORTANT]
-> If you encounter any issues, kindly report them by opening an [issue here](https://github.com/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/issues).
+> [!IMPORTANT]  
+> If you encounter any issues, please report them by opening an [issue here](https://github.com/scotthowson/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-1.0.2/issues).
 
-> [!WARNING]
-> I hereby disclaim any responsibility and liability for any damages that may arise from the use of information provided within this repository.
+> [!WARNING]  
+> I disclaim any responsibility or liability for damages that may arise from the use of information provided in this repository.
+
+<details>
+  <summary><strong>System Specifications 🛠️</strong></summary>
 
 ## Specifications 🛠️
 <div align="center" style="width: 100%">
@@ -90,7 +103,7 @@
   <tbody>
     <tr>
       <td>Motherboard</td>
-      <td align="center">Asus ROG Strix Z790-A Gaming Wi-fi D4</td>
+      <td align="center">Asus ROG Strix Z790-A Gaming Wi-Fi D4</td>
       <td align="center">✅</td>
     </tr>
     <tr>
@@ -105,7 +118,7 @@
     </tr>
     <tr>
       <td>RAM</td>
-      <td align="center">64GB Corsair Vengeance RGB Pro 32GB (2 x 32GB)</td>
+      <td align="center">64GB Corsair Vengeance RGB Pro (2 x 32GB)</td>
       <td align="center">✅</td>
     </tr>
     <tr>
@@ -132,64 +145,65 @@
       <td colspan="3"><strong>Storage Devices</strong></td>
     </tr>
     <tr>
-      <td>macOS Bootable NVMe M.2 2TB</td>
+      <td>macOS Bootable NVMe M.2 (2TB)</td>
       <td align="center" colspan="2">WD_BLACK SN770 2TB</td>
     </tr>
     <tr>
-      <td>macOS NVMe M.2 1TB</td>
+      <td>macOS NVMe M.2 (1TB)</td>
       <td align="center" colspan="2">WD Blue SN570 1TB</td>
     </tr>
     <tr>
-      <td>Windows Bootable NVMe M.2 512GB</td>
+      <td>Windows Bootable NVMe M.2 (512GB)</td>
       <td align="center" colspan="2">INTEL SSDPEKNW512G8</td>
     </tr>
     <tr>
-      <td>Windows NVMe M.2 1TB</td>
+      <td>Windows NVMe M.2 (1TB)</td>
       <td align="center" colspan="2">WD Blue SN570 1TB</td>
     </tr>
     <tr>
-      <td>Kingston 960GB SSD</td>
+      <td>Kingston SSD (960GB)</td>
       <td align="center" colspan="2">KINGSTON SA400S37960G</td>
     </tr>
     <tr>
-      <td>Seagate 2TB HDD</td>
+      <td>Seagate HDD (2TB)</td>
       <td align="center" colspan="2">ST2000LX001-1RG174</td>
     </tr>
     <tr>
-      <td>Seagate 1TB HDD</td>
+      <td>Seagate HDD (1TB)</td>
       <td align="center" colspan="2">ST1000DM003-1CH162</td>
     </tr>
   </tbody>
 </table>
 </div>
+</details>
 
-> [!NOTE]
-> These specifications are tailored to my unique setup and may not be universally applicable. Your system may require adjustments and customization for optimal performance.
+> [!NOTE]  
+> These specifications are specific to my setup and may require customization for your system to perform optimally.
 
 **Key Considerations 🤔**
 
-- **Processor Compatibility:** The Intel Core i9-13900K is a powerful CPU, and while OpenCore 0.9.4 provides a versatile platform for macOS, it's essential to ensure that all required kexts and configurations are up-to-date and compatible with this CPU model for optimal performance.
+- **Processor Compatibility:** The Intel Core i9-13900K is a powerful CPU, and with OpenCore 1.0.2, it’s crucial to ensure that all required kexts and configurations are up-to-date and fully compatible with this processor for optimal macOS Sequoia performance.
 
-- **ASUS Z790-A Gaming WiFi D4:** This motherboard choice is versatile for Hackintosh setups, but it's crucial to research and select compatible kexts and configurations tailored to this specific motherboard model to ensure stability and functionality.
+- **ASUS Z790-A Gaming WiFi D4:** This motherboard is a solid choice for Hackintosh builds, but it’s essential to verify that the correct kexts and configurations are applied to guarantee stability and full functionality with macOS Sequoia.
 
-- **macOS Ventura:** As macOS Ventura is a relatively new release, staying informed about updates and compatibility with your hardware is vital. OpenCore 0.9.4 may require adjustments and updates to accommodate the latest macOS version.
+- **macOS Sequoia:** As Sequoia is the latest macOS release, staying on top of compatibility updates for your hardware is key. OpenCore 1.0.2 provides enhanced support, but some adjustments or updates may still be required to ensure a smooth experience.
 
 **Best Practices 📝**
 
-- **Kext Management:** Keep an eye on kext updates and ensure you're using versions compatible with macOS Ventura, i9-13900K, and your ASUS motherboard. Always download kexts from reputable sources.
+- **Kext Management:** Regularly check for updates to your kexts and confirm compatibility with macOS Sequoia, the i9-13900K, and the ASUS Z790-A motherboard. Always download kexts from trusted sources.
 
-- **Configuration Backups:** Regularly back up your OpenCore configuration files to avoid data loss in case of unexpected issues. This practice allows you to revert to a stable configuration if needed.
+- **Configuration Backups:** Back up your OpenCore configuration frequently. This ensures you can quickly restore a stable state if anything goes wrong during updates or tweaks.
 
-- **Community Support:** Leverage online forums and communities dedicated to Hackintosh setups, as they can provide valuable insights, troubleshooting tips, and updates regarding macOS Ventura compatibility.
+- **Community Involvement:** Use Hackintosh forums and communities to stay informed about compatibility, troubleshooting, and tips for running macOS Sequoia on your hardware. The collective knowledge can be invaluable.
 
-- **Update OpenCore:** As new versions of OpenCore are released, consider updating to take advantage of improved features, bug fixes, and better compatibility with the latest macOS updates.
+- **Keep OpenCore Updated:** OpenCore 1.0.2 is highly optimized, but as new updates roll out, upgrading can bring performance improvements, bug fixes, and better compatibility with macOS Sequoia and future updates.
 
 **Conclusion 🎉**
 
-Utilizing OpenCore 0.9.4 with macOS Ventura on your i9-13900K and ASUS Z790-A Gaming WiFi D4 setup can deliver a high-performance Hackintosh experience. However, staying informed about hardware compatibility, keeping your kexts and configurations up-to-date, and seeking community support when needed are essential steps to ensure a stable and smooth-running system.
+Using OpenCore 1.0.2 with macOS Sequoia on your Intel i9-13900K and ASUS Z790-A Gaming WiFi D4 motherboard offers a high-performance Hackintosh experience. Staying informed about hardware compatibility, keeping your kexts updated, and engaging with the Hackintosh community are crucial steps to ensure a stable and efficient system.
 
-> [!IMPORTANT]
-> <b>Remember that the Hackintosh community is a valuable resource, and with proper research and maintenance, you can enjoy the benefits of macOS Ventura on your unique hardware configuration.</b>
+> [!IMPORTANT]  
+> **Take advantage of the Hackintosh community. With regular maintenance and proper configurations, you can enjoy the full potential of macOS Sequoia on your unique hardware setup.**
 
 ## Hackintosh Community Resources 🌐
 
@@ -592,12 +606,12 @@ If you encounter issues that aren't covered here or need personalized assistance
 > **Important Disclaimer:** 🚧<br>
 >This repository is intended for educational and experimental purposes only. Using macOS on non-Apple hardware, also known as Hackintosh, may violate Apple's End User License Agreement (EULA). The process involves potential risks, including but not limited to data loss or instability. By using the information and resources provided here, you agree that you are solely responsible for any consequences that may arise. Always ensure you have proper backups and proceed at your own risk.
 
+<details>
+  <summary><strong>USB Preparation</strong></summary>
 
 # USB Preparation for OpenCore Installation
 
 This guide outlines the steps to prepare a USB drive for OpenCore installation using the terminal.
-
-## Method 2 (In case Method 1 didn't work)
 
 ### Steps:
 
@@ -691,6 +705,8 @@ This guide outlines the steps to prepare a USB drive for OpenCore installation u
 - Ensure to replace placeholders (`<your USB block>`, `<your 200MB partition block>`, etc.) with actual values from your setup.
 
 Follow these steps carefully to prepare your USB drive for OpenCore installation.
+
+</details>
 
 **Special Thanks 🙌**
 
