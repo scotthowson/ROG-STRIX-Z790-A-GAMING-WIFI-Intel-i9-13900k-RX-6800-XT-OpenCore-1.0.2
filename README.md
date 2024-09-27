@@ -428,7 +428,7 @@ By following these steps, you enable the OpenCore Vault feature, adding an extra
 
 > [!IMPORTANT]
 > Ensure that your 'config.plist' file is entirely in lowercase, as sign.command won't recognize the file otherwise.
-<details>
+</details>
 
 <details>
   <summary><strong>Hackintosh Checklist ✅ - What's Working?</strong></summary>
@@ -535,7 +535,7 @@ By following these steps, you enable the OpenCore Vault feature, adding an extra
 12. **OS Features**
     - [x] iMessage, FaceTime, App Store, iTunes Store
     - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime, Netflix, and others)
-<details>
+</details>
 
 ## Troubleshooting 🛠️
 
