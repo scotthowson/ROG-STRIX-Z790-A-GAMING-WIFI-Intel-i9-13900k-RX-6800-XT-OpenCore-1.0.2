@@ -211,7 +211,8 @@
 > [!IMPORTANT]  
 > **Take advantage of the Hackintosh community. With regular maintenance and proper configurations, you can enjoy the full potential of macOS Sequoia on your unique hardware setup.**
 
-## Hackintosh Community Resources 🌐
+<details>
+  <summary><strong>Hackintosh Community Resources 🌐</strong></summary>
 
 - **[r/hackintosh (Reddit)](https://www.reddit.com/r/hackintosh/):** A popular subreddit dedicated to Hackintosh discussions, troubleshooting, and community support.
 
@@ -228,6 +229,7 @@
 - **GitHub:** Many Hackintosh projects and drivers can be found on GitHub. Search for specific hardware or software-related repositories to find the latest updates and contributions.
 
 - **Hackintosh Discord Servers:** There are several Discord servers dedicated to Hackintosh enthusiasts. You can search for them on Discord or join the tonymacx86 Discord server, which often has active discussions.
+</details>
 
 > [!WARNING]
 > Generate an SMBIOS: Ensure you generate a new SMBIOS to maintain system stability and compliance.
@@ -272,10 +274,11 @@ cd ~/Downloads/GenSMBIOS
 > Generating a new serial number with GenSMBIOS helps you maintain the functionality and stability of your Hackintosh while ensuring your compliance with Apple's EULA.
 </details>
 
-## Kexts 🧩
-
 > [!IMPORTANT]
 > Essential kexts crucial for your success.
+
+<details>
+  <summary><strong>Kexts 🧩</strong></summary>
 
 1. **Lilu Kext** [^1]
    - [Download Lilu](https://github.com/acidanthera/Lilu/releases)
@@ -312,7 +315,10 @@ cd ~/Downloads/GenSMBIOS
 
 ![Desktop Screenshot](Images/kext-config.png)
 
-## Enabling Intel I225-V Ethernet
+</details>
+
+<details>
+  <summary><strong>Enabling Intel I225-V Ethernet</strong></summary>
 
 **To enable the Intel I225-V Ethernet Controller and ensure compatibility with 3rd-party WiFi/LAN cards, follow this guide:**
 
@@ -322,7 +328,11 @@ cd ~/Downloads/GenSMBIOS
 
 ![Screenshot](Images/appleigc.png)
 
-## BIOS Settings 📟
+</details>
+
+<details>
+  <summary><strong>BIOS Settings 📟</strong></summary>
+
 
 **Bios Information:**
   - Bios version: **1303**
@@ -349,8 +359,10 @@ cd ~/Downloads/GenSMBIOS
   -  Advanced > USB Configuration > XHCI Hand-off > Enabled
   -  Ai Tweaker > Ai Overclock Tuner > XMP II
   -  Ai Overclock > Auto
+<details>
 
-## Enabling FileVault on Your Hackintosh 🔐
+<details>
+  <summary><strong>Enabling FileVault on Your Hackintosh 🔐</strong></summary>
 
 FileVault is a security feature in macOS that encrypts the contents of your disk, adding an extra layer of protection to your data. Enabling FileVault on your Hackintosh is possible, but it requires some additional considerations and configurations. Here's a step-by-step guide to help you set up FileVault:
 
@@ -416,8 +428,10 @@ By following these steps, you enable the OpenCore Vault feature, adding an extra
 
 > [!IMPORTANT]
 > Ensure that your 'config.plist' file is entirely in lowercase, as sign.command won't recognize the file otherwise.
+<details>
 
-## Hackintosh Checklist ✅ - What's Working?
+<details>
+  <summary><strong>Hackintosh Checklist ✅ - What's Working?</strong></summary>
 
 > [!NOTE]
 > If anything doesn't work for you, report the issue [here](https://github.com/IllSaft/ROG-STRIX-Z790-A-GAMING-WIFI-Intel-i9-13900k-RX-6800-XT-OpenCore-0.9.4/issues).
@@ -521,6 +535,7 @@ By following these steps, you enable the OpenCore Vault feature, adding an extra
 12. **OS Features**
     - [x] iMessage, FaceTime, App Store, iTunes Store
     - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime, Netflix, and others)
+<details>
 
 ## Troubleshooting 🛠️
 
