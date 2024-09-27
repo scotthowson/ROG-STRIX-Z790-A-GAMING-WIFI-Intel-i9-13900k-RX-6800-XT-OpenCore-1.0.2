@@ -314,7 +314,6 @@ cd ~/Downloads/GenSMBIOS
 > The following is my kext configuration order. It's essential to use kexts tailored to your hardware and macOS version. Keep them updated and maintain a backup of your working configuration to ensure system stability.
 
 ![Desktop Screenshot](Images/kext-config.png)
-
 </details>
 
 <details>
@@ -359,7 +358,7 @@ cd ~/Downloads/GenSMBIOS
   -  Advanced > USB Configuration > XHCI Hand-off > Enabled
   -  Ai Tweaker > Ai Overclock Tuner > XMP II
   -  Ai Overclock > Auto
-<details>
+</details>
 
 <details>
   <summary><strong>Enabling FileVault on Your Hackintosh 🔐</strong></summary>
