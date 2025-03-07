@@ -10,6 +10,15 @@
   🚀 We're committed to ongoing improvements. With two updates already released, our guide is always evolving to ensure seamless compatibility with the latest macOS Sequoia and OpenCore versions. Stay tuned for even more refinements!
 </div>
 
+## 💖 Support Me
+
+If you enjoy my work, consider supporting my projects by buying me a coffee! Your support allows me to continue building and improving open-source projects and tools for the community.
+
+<div align="center">
+  <a href="https://www.buymeacoffee.com/scotthowson">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="80" width="320" />
+  </a>
+</div>
 <div align="center">
   <h1>Sequoia is Here: Your Hackintosh EFI & Guide 🚀</h1>
   <p>Welcome to my Raptor Lake and 13th Gen Intel Hackintosh Repository!</p>
